@@ -10,8 +10,9 @@ math: katex
 
 # Datenschutz/-sicherheit
 
-und die Notwendigkeit von Tests
+### und die Notwendigkeit von Tests
+
+von Kevin Böhme und Rico Ukro
 
 ---
 
-t
