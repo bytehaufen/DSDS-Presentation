@@ -16,3 +16,12 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
+<!--TODO: Delete this slide-->
+
+# TODO
+
+- [ ] Reorder slides
+- [ ] Make this stuff beautiful
+- [ ] Check Abbreviations
+
+---
