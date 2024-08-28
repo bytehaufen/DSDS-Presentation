@@ -25,3 +25,16 @@ von Kevin Böhme und Rico Ukro
 - [ ] Check Abbreviations
 
 ---
+
+# Agenda
+
+- Was sind Tests?
+- Warum Tests?
+- Auflistung der Testverfahren
+  - Unit Tests
+  - Integration Tests
+  - System Tests
+  - Fuzzing
+- Quellen
+
+---
