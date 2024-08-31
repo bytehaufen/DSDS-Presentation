@@ -4,6 +4,7 @@ theme: default
 paginate: true
 transition: overlap
 math: katex
+footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | Kevin Böhme & Rico Ukro"
 ---
 
 <style>
@@ -45,6 +46,24 @@ von Kevin Böhme und Rico Ukro
 - [ ] Reorder slides
 - [ ] Make this stuff beautiful
 - [ ] Check Abbreviations
+
+---
+
+## Einleitung
+
+<!-- TODO: Write nice introduction -->
+
+```javascript
+if (typeof response === "undefined") {
+  // Handle error
+} else {
+  // Handle response
+}
+```
+
+- Kurzer Überblick über die Bedeutung von Datenschutz und Datensicherheit
+- Warum ist Testing in diesem Kontext wichtig?
+- Ziel der Präsentation: Verständnis für verschiedene Testarten und deren Anwendung im Bereich Datenschutz und Datensicherheit
 
 ---
 
