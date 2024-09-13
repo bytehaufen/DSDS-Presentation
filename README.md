@@ -37,4 +37,7 @@ npx @marp-team/marp-cli@latest -s ./slides --engine ./engine/engine.js
 - [Marp markdown documentation](https://marpit.marp.app/markdown)
 - [Marp transition documentation](https://github.com/marp-team/marp-cli/blob/main/docs/bespoke-transitions/README.md#built-in-transition)
 
+## Orga
 
+Presentation: 25.09.2024
+Inhalt: Vortrag, Aufgaben + Musterlösung
