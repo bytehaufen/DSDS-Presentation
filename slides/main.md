@@ -46,24 +46,11 @@ von Kevin Böhme und Rico Ukro
 - [ ] Reorder slides
 - [ ] Make this stuff beautiful
 - [ ] Check Abbreviations
-
----
-
-## Einleitung
-
-<!-- TODO: Write nice introduction -->
-
-```javascript
-if (typeof response === "undefined") {
-  // Handle error
-} else {
-  // Handle response
-}
-```
-
-- Kurzer Überblick über die Bedeutung von Datenschutz und Datensicherheit
-- Warum ist Testing in diesem Kontext wichtig?
-- Ziel der Präsentation: Verständnis für verschiedene Testarten und deren Anwendung im Bereich Datenschutz und Datensicherheit
+- [ ] Discuss: \
+       - Use Mentimeter (or similar) opinion poll?
+          Questions: Do you regularly test your software? Will you change your testing habits after this presentation?
+      - Create interactive quiz? (e.g. Kahoot)
+- [ ] Collect all inline quotes
 
 ---
 
@@ -71,15 +58,64 @@ if (typeof response === "undefined") {
 
 - Was sind Tests?
 - Warum Tests?
-- Auflistung der Testverfahren
+- Grundlagen von Tests und Testverfahren
   - Unit Tests
   - Integration Tests
+  - Penetration Tests
   - System Tests
   - Fuzzing
+- Testverfahren für Datensicherheit im Detail
+- Datenschutz: Besonderheiten beim Testen
+   <!-- TODO: idea: No real data, generated data, eventually from a public database for this purpose -->
 - Quellen
 
 ---
 
+<style scoped>
+ ul { list-style-type: none; }
+</style>
+
+## Was sind Tests?
+
+* > _Software testing is the process of evaluating and verifying that a software product or application does what it’s supposed to do. The benefits of good testing include preventing bugs and improving performance._ \[[ibm.com](https://www.ibm.com/topics/software-testing)\]
+
+<!-- - Evaluierung und Verifizierung von Software -->
+<!-- - Verhindern von Fehlern -->
+<!-- - Verbesserung der Performance -->
+
+---
+
+## Warum Tests?
+
+TODO: Python or js ? &rArr; Consistence
+
+```javascript
+let response = fetch("https://api.example.com/data");
+
+if (typeof response === "undefined") {
+  // Handle error
+} else {
+  // Handle response
+}
+```
+
+```python
+response = requests.get("https://api.example.com/data")
+
+if response.status_code != 200:
+    # Handle error
+else:
+    # Handle response
+```
+
+- Warum ist Testing in diesem Kontext wichtig?
+
+---
+
+<style scoped>
+  a { color: inherit; }
+</style>
+
 # Quellen
 
-- [Placeholder](www.example.com)
+- _[Placeholder](www.example.com)_
