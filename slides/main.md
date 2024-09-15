@@ -27,12 +27,18 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
       color: #bbb; /* Lighter color for line numbers */
       font-weight: lighter; /* Lighter font weight for line numbers */
     }
+  /* Centered text */
   .centered {
     text-align: center;
   }
+  /* Fixed top */
   .fixed-top {
     position: absolute;
     top: 10%;
+  }
+  /* For sources of citations */
+  .source {
+    font-size: 12px;
   }
 </style>
 
@@ -86,7 +92,7 @@ von Kevin Böhme und Rico Ukro
   Was sind Tests?
 </h1>
 
-* > _&#8222;Software testing is the process of evaluating and verifying that a software product or application does what it’s supposed to do. The benefits of good testing include preventing bugs and improving performance.&#8220;_ - \[[ibm.com](https://www.ibm.com/topics/software-testing)\]
+* > _&#8222;Software testing is the process of evaluating and verifying that a software product or application does what it’s supposed to do. The benefits of good testing include preventing bugs and improving performance.&#8220;_ <br><span class="source">Quelle: [https://www.ibm.com/topics/software-testing](https://www.ibm.com/topics/software-testing)</span>
 
 
 <!-- - Evaluierung und Verifizierung von Software -->
@@ -149,7 +155,7 @@ else:
 - Angemessene Sicherheit sicherstellen
 - Schutz vor unbefugter Verarbeitung und Datenverlust
 
-> _&#8222;in einer Weise verarbeitet werden, die eine angemessene Sicherheit der personenbezogenen Daten gewährleistet [...] durch geeignete technische und organisatorische Maßnahmen („Integrität und Vertraulichkeit“);&#8220;_ - \[[Artikel 5 Abs. 1(f) DSGVO](https://dsgvo-gesetz.de/art-5-dsgvo/)\]
+> _&#8222;in einer Weise verarbeitet werden, die eine angemessene Sicherheit der personenbezogenen Daten gewährleistet [...] durch geeignete technische und organisatorische Maßnahmen („Integrität und Vertraulichkeit“);&#8220;_ <span class="source">Quelle: [Artikel 5 Abs. 1(f) DSGVO](https://dsgvo-gesetz.de/art-5-dsgvo/)</span>
 
 ---
 
@@ -160,7 +166,7 @@ else:
 - **Privacy by Design**: Datenschutz in der Entwicklung berücksichtigen
 - Systeme vor Einführung testen
 
-> _&#8222;[...] trifft der Verantwortliche [...] geeignete technische und organisatorische Maßnahmen – wie z. B. Pseudonymisierung –, die dafür ausgelegt sind, die Datenschutzgrundsätze wie etwa Datenminimierung wirksam umzusetzen und die notwendigen Garantien in die Verarbeitung aufzunehmen, um den Anforderungen dieser Verordnung zu genügen und die Rechte der betroffenen Personen zu schützen.&#8220;_ - \[[Artikel 25 Abs. 1 DSGVO](https://dsgvo-gesetz.de/art-25-dsgvo/)\]
+> _&#8222;[...] trifft der Verantwortliche [...] geeignete technische und organisatorische Maßnahmen – wie z. B. Pseudonymisierung –, die dafür ausgelegt sind, die Datenschutzgrundsätze wie etwa Datenminimierung wirksam umzusetzen und die notwendigen Garantien in die Verarbeitung aufzunehmen, um den Anforderungen dieser Verordnung zu genügen und die Rechte der betroffenen Personen zu schützen.&#8220;_ <span class="source">Quelle: [Artikel 25 Abs. 1 DSGVO](https://dsgvo-gesetz.de/art-25-dsgvo/)</span>
 
 ---
 
