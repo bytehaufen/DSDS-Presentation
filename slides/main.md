@@ -42,7 +42,7 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
   }
 </style>
 
-![bg left:40% 80%](https://www.ba-dresden.de/tmpl/daten/berufsakademie_sachsen/img/logo/ba_dresden_logo.svg)
+![bg left:40% 80%](res/ba_dresden_logo.svg)
 
 # Datenschutz/-sicherheit
 
