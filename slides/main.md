@@ -77,7 +77,7 @@ von Kevin Böhme und Rico Ukro
 
 ## Was sind Tests?
 
-* > _&#8222;Software testing is the process of evaluating and verifying that a software product or application does what it’s supposed to do. The benefits of good testing include preventing bugs and improving performance.&#8220;_ \[[ibm.com](https://www.ibm.com/topics/software-testing)\]
+* > _&#8222;Software testing is the process of evaluating and verifying that a software product or application does what it’s supposed to do. The benefits of good testing include preventing bugs and improving performance.&#8220;_ - \[[ibm.com](https://www.ibm.com/topics/software-testing)\]
 
 <!-- - Evaluierung und Verifizierung von Software -->
 <!-- - Verhindern von Fehlern -->
@@ -117,7 +117,7 @@ else:
 ---
 
 ## Warum Tests?
-### Gesetzliche Anforderungen (DSGVO)
+#### Gesetzliche Anforderungen (DSGVO)
 
 - Geeignete technische und organisatorische Maßnahmen
 - Schutz personenbezogener Daten durch Tests
@@ -127,7 +127,7 @@ else:
 
 ## Warum Tests?
 
-### Artikel 5 – Grundsätze der Verarbeitung
+#### Artikel 5 – Grundsätze der Verarbeitung
 
 - Angemessene Sicherheit sicherstellen
 - Schutz vor unbefugter Verarbeitung und Datenverlust
@@ -138,7 +138,7 @@ else:
 
 ## Warum Tests?
 
-### Artikel 25 – Datenschutz durch Technikgestaltung
+#### Artikel 25 – Datenschutz durch Technikgestaltung
 
 - **Privacy by Design**: Datenschutz in der Entwicklung berücksichtigen
 - Systeme vor Einführung testen
@@ -149,7 +149,7 @@ else:
 
 ## Warum Tests?
 
-### Artikel 32 – Sicherheit der Verarbeitung
+#### Artikel 32 – Sicherheit der Verarbeitung
 
 - Regelmäßige Tests vorgeschrieben
 - Vertraulichkeit, Integrität und Verfügbarkeit sicherstellen
@@ -159,10 +159,10 @@ else:
 
 ---
 
---- 
+---
 
 ---
 
-# Quellen
+## Quellen
 
 - _[Placeholder](www.example.com)_
