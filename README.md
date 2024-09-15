@@ -14,22 +14,22 @@ installed [Node.js](https://nodejs.org/) v16 and later.
 
 ```bash
 # Convert slide deck into HTML
-npx @marp-team/marp-cli@latest ./slides/main.md --engine ./engine/engine.js
-npx @marp-team/marp-cli@latest ./slides/main.md -o output.html --engine ./engine/engine.js
+npx @marp-team/marp-cli@latest ./slides/main.md --html --engine ./engine/engine.js
+npx @marp-team/marp-cli@latest ./slides/main.md --html -o output.html --engine ./engine/engine.js
 
 # Convert slide deck into PDF
-npx @marp-team/marp-cli@latest ./slides/main.md --pdf --engine ./engine/engine.js
-npx @marp-team/marp-cli@latest ./slides/main.md -o output.pdf --engine ./engine/engine.js
+npx @marp-team/marp-cli@latest ./slides/main.md  --html --pdf --engine ./engine/engine.js
+npx @marp-team/marp-cli@latest ./slides/main.md --html -o output.pdf --engine ./engine/engine.js
 
 # Convert slide deck into PowerPoint document (PPTX)
-npx @marp-team/marp-cli@latest ./slides/main.md --pptx --engine ./engine/engine.js
-npx @marp-team/marp-cli@latest ./slides/main.md -o output.pptx --engine ./engine/engine.js
+npx @marp-team/marp-cli@latest ./slides/main.md --html --pptx --engine ./engine/engine.js
+npx @marp-team/marp-cli@latest ./slides/main.md --html -o output.pptx --engine ./engine/engine.js
 
 # Watch mode
-npx @marp-team/marp-cli@latest -w ./slides/main.md --engine ./engine/engine.js
+npx @marp-team/marp-cli@latest -w ./slides/main.md --html --engine ./engine/engine.js
 
 # Server mode (Pass directory to serve)
-npx @marp-team/marp-cli@latest -s ./slides --engine ./engine/engine.js
+npx @marp-team/marp-cli@latest -s ./slides --html --engine ./engine/engine.js
 ```
 
 ## Marp ressources
