@@ -182,6 +182,53 @@ else:
 
 ---
 
+<h1 class="centered">
+  Grundlagen von Tests und Testverfahren
+</h1>
+
+---
+
+<h2 class="fixed-top">
+ Überblick über Testarten
+</h2>
+
+- Notwendig um Fehler in Software zu finden
+- Verschiedene Testarten decken unterschiedliche Aspekte ab:
+  - Funktionalität
+  - Integration
+  - Sicherheit
+- Verbindung zum Datenschutz:
+  - Sicherstellen, dass keine personenbezogenen Daten kompromittiert werden
+
+---
+
+<h2 class="fixed-top">
+  Unit Tests
+</h2>
+
+- Testen einzelner Softwarekomponenten
+- Ziel: Sicherstellen, dass jede Komponente isoliert korrekt funktioniert
+- Wichtig für Datenschutz: Vermeidung unsicherer Funktionen/Klassen in Modulen
+
+> _&#8222;Software unit testing is a process that includes the performance of test planning, the acquisition of a test set, and the measurement of a test unit against its requirements.&#8220;_ <span class="source">Quelle: [IEEE Standard for Software Unit Testing]()</span>
+
+---
+
+<h2 class="fixed-top">
+  Unit Tests
+</h2>
+
+<div class="centered">
+  <img src="res/unit-test-diagram.png" alt="Unit Test Diagramm" style="width: 70%;"/>
+</div>
+
+<div class="centered source">
+
+  Quelle: [https://dancerscode.com/posts/unit-tests/](https://dancerscode.com/posts/unit-tests/)
+</div>
+
+---
+
 ---
 
 ---
