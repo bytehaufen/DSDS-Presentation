@@ -64,6 +64,7 @@ von Kevin Böhme und Rico Ukro
           Questions: Do you regularly test your software? Will you change your testing habits after this presentation?
       - Create interactive quiz? (e.g. Kahoot)
 - [ ] Collect all inline quotes
+- [ ] Make example solutions for all exercises as files
 
 ---
 
