@@ -54,7 +54,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-# Agenda
+## Agenda
 
 - Was sind Tests?
 - Warum Tests?
@@ -77,7 +77,7 @@ von Kevin Böhme und Rico Ukro
 
 ## Was sind Tests?
 
-* > _Software testing is the process of evaluating and verifying that a software product or application does what it’s supposed to do. The benefits of good testing include preventing bugs and improving performance._ \[[ibm.com](https://www.ibm.com/topics/software-testing)\]
+* > _&#8222;Software testing is the process of evaluating and verifying that a software product or application does what it’s supposed to do. The benefits of good testing include preventing bugs and improving performance.&#8220;_ \[[ibm.com](https://www.ibm.com/topics/software-testing)\]
 
 <!-- - Evaluierung und Verifizierung von Software -->
 <!-- - Verhindern von Fehlern -->
@@ -85,8 +85,12 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-## Warum Tests?
+TODO: Erst gesetzlich oder erst technisch? -- Langweiligeres zuerst?
 
+--- 
+## Warum Tests? 
+
+##### Aus technischer Sicht
 TODO: Python or js ? &rArr; Consistence
 
 ```javascript
@@ -112,9 +116,52 @@ else:
 
 ---
 
-<style scoped>
-  a { color: inherit; }
-</style>
+## Warum Tests?
+### Gesetzliche Anforderungen (DSGVO)
+
+- Geeignete technische und organisatorische Maßnahmen
+- Schutz personenbezogener Daten durch Tests
+- Sicherstellung der System- und Datensicherheit
+
+---
+
+## Warum Tests?
+
+### Artikel 5 – Grundsätze der Verarbeitung
+
+- Angemessene Sicherheit sicherstellen
+- Schutz vor unbefugter Verarbeitung und Datenverlust
+
+> _&#8222;in einer Weise verarbeitet werden, die eine angemessene Sicherheit der personenbezogenen Daten gewährleistet [...] durch geeignete technische und organisatorische Maßnahmen („Integrität und Vertraulichkeit“);&#8220;_ - \[[Artikel 5 Abs. 1(f) DSGVO](https://dsgvo-gesetz.de/art-5-dsgvo/)\]
+
+---
+
+## Warum Tests?
+
+### Artikel 25 – Datenschutz durch Technikgestaltung
+
+- **Privacy by Design**: Datenschutz in der Entwicklung berücksichtigen
+- Systeme vor Einführung testen
+
+> _&#8222;[...] trifft der Verantwortliche [...] geeignete technische und organisatorische Maßnahmen – wie z. B. Pseudonymisierung –, die dafür ausgelegt sind, die Datenschutzgrundsätze wie etwa Datenminimierung wirksam umzusetzen und die notwendigen Garantien in die Verarbeitung aufzunehmen, um den Anforderungen dieser Verordnung zu genügen und die Rechte der betroffenen Personen zu schützen.&#8220;_ - \[[Artikel 25 Abs. 1 DSGVO](https://dsgvo-gesetz.de/art-25-dsgvo/)\]
+
+---
+
+## Warum Tests?
+
+### Artikel 32 – Sicherheit der Verarbeitung
+
+- Regelmäßige Tests vorgeschrieben
+- Vertraulichkeit, Integrität und Verfügbarkeit sicherstellen
+- Systeme und Prozesse evaluieren
+
+> _&#8222;Ein Verfahren zur **regelmäßigen** Überprüfung, Bewertung und Evaluierung der Wirksamkeit der technischen und organisatorischen Maßnahmen zur Gewährleistung der Sicherheit der Verarbeitung.&#8220;_ - \[[Artikel 32 Abs. 1(f) DSGVO](https://dsgvo-gesetz.de/art-32-dsgvo/)\]
+
+---
+
+--- 
+
+---
 
 # Quellen
 
