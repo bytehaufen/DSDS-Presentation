@@ -27,6 +27,13 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
       color: #bbb; /* Lighter color for line numbers */
       font-weight: lighter; /* Lighter font weight for line numbers */
     }
+  .centered {
+    text-align: center;
+  }
+  .fixed-top {
+    position: absolute;
+    top: 10%;
+  }
 </style>
 
 ![bg left:40% 80%](https://www.ba-dresden.de/tmpl/daten/berufsakademie_sachsen/img/logo/ba_dresden_logo.svg)
@@ -75,9 +82,12 @@ von Kevin Böhme und Rico Ukro
  ul { list-style-type: none; }
 </style>
 
-## Was sind Tests?
+<h1 class="centered">
+  Was sind Tests?
+</h1>
 
 * > _&#8222;Software testing is the process of evaluating and verifying that a software product or application does what it’s supposed to do. The benefits of good testing include preventing bugs and improving performance.&#8220;_ - \[[ibm.com](https://www.ibm.com/topics/software-testing)\]
+
 
 <!-- - Evaluierung und Verifizierung von Software -->
 <!-- - Verhindern von Fehlern -->
@@ -116,8 +126,15 @@ else:
 
 ---
 
-## Warum Tests?
-#### Gesetzliche Anforderungen (DSGVO)
+<h1 class="centered">
+  Warum Tests?
+</h1>
+
+---
+
+<h2 class="fixed-top">
+  Gesetzliche Anforderungen (DSGVO)
+</h2>
 
 - Geeignete technische und organisatorische Maßnahmen
 - Schutz personenbezogener Daten durch Tests
@@ -125,9 +142,9 @@ else:
 
 ---
 
-## Warum Tests?
-
-#### Artikel 5 – Grundsätze der Verarbeitung
+<h2 class="fixed-top">
+   Artikel 5 – Grundsätze der Verarbeitung
+</h2>
 
 - Angemessene Sicherheit sicherstellen
 - Schutz vor unbefugter Verarbeitung und Datenverlust
@@ -136,9 +153,9 @@ else:
 
 ---
 
-## Warum Tests?
-
-#### Artikel 25 – Datenschutz durch Technikgestaltung
+<h2 class="fixed-top">
+  Artikel 25 – Datenschutz durch Technikgestaltung
+</h2>
 
 - **Privacy by Design**: Datenschutz in der Entwicklung berücksichtigen
 - Systeme vor Einführung testen
@@ -147,9 +164,9 @@ else:
 
 ---
 
-## Warum Tests?
-
-#### Artikel 32 – Sicherheit der Verarbeitung
+<h2 class="fixed-top">
+  Artikel 32 – Sicherheit der Verarbeitung
+</h2>
 
 - Regelmäßige Tests vorgeschrieben
 - Vertraulichkeit, Integrität und Verfügbarkeit sicherstellen
