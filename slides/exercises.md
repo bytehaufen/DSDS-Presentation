@@ -98,3 +98,32 @@ def is_leap_year(year: int) -> bool:
 ```
 
 ---
+
+<h2 class="fixed-top">
+  Aufgabe x - Unit/Integration tests - Sockenversand
+</h2>
+
+Für einen renommierten Online-Sockenversand soll die bisherige übelst veraltete und fehleranfällige MS-SQL-Server Implementierung durch ein modernes Python Backend ersetzt werden.
+
+Ihre Aufgabe ist es:
+1. Unit-Tests für die Funktionalität des Sockenversands zu entwickeln
+   _Template_: [`test_sockstore_unit.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/sockstore/template/test_sockstore_unit.py)
+2. Implementierung der Funktionalität des Sockenversands zu erstellen
+   _Template_: [`sockstore.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/sockstore/template/sockstore.py)
+3. Integrationstests für die Funktionalität des Sockenversands zu entwickeln
+   _Template_: [`test_sockstore_integration.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/sockstore/template/test_sockstore_integration.py)
+
+---
+
+<h2 class="fixed-top">
+  Aufgabe x - Unit/Integration tests - Sockenversand
+</h2>
+
+Anforderungen:
+
+- Klasse `SockStore`: Verwaltet den Bestand an Socken und stellt die folgenden Schnittstelle bereit
+- Methode `search(self, color: str) -> int`: Gibt die Anzahl der Socken einer bestimmten Farbe zurück
+- Methode `buy_sock(self, color)`: Kauft ein Paar Socken einer bestimmten Farbe und gibt die Farbe zurück
+- Methode `add_sock(self, color: str, quantity: int)`: Fügt Socken einer bestimmten Farbe und Menge hinzu
+
+---
