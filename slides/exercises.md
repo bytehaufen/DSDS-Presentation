@@ -55,47 +55,25 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
   Aufgabe x - Unit tests - Schaltjahr
 </h2>
 
-1. Entwickeln Sie Unit-Tests für eine Funktion `is_leap_year(year: int) -> bool`, die überprüft, ob ein gegebenes Jahr ein Schaltjahr ist.
+Ihr Kunde &#8222;Karl&#8220; hat für sein Produkt &#8222;Karl's Karlender&#8220;, bei Ihnen angefragt, die fehlende Implementierung für die Berechnung der Schaltjahre zu übernehmen: 
+
+1. Entwickeln Sie Unit-Tests für eine Funktion `is_leap_year(year: int) -> bool`, die überprüft, ob ein gegebenes Jahr ein Schaltjahr ist
 2. Erstellen Sie mindestens 5 Testfälle, die verschiedene Szenarien abdecken (z.B. reguläre Jahre, Schaltjahre, Grenzfälle).
 _Hinweise: Nutzen Sie die Bibliothek `unittest`_
-3. Implementieren Sie die Funktion `is_leap_year(year: int) -> bool` so, dass die Tests erfolgreich sind.
+3. Implementieren Sie die Funktion `is_leap_year(year: int) -> bool`
+
+_Negative Kalenderjahre sind nicht vorgesehen._
 
 ---
 
 <h2 class="fixed-top">
-  Aufgabe x - Unit tests - Schaltjahr - Beispiel für Testfall
+  Aufgabe x - Unit tests - Schaltjahr
 </h2>
 
-Datei `test_leapyear.py`:
+Als kleine Starthilfe:
 
-```python
-import unittest
-import leapyear
-
-
-class TestLeapYear(unittest.TestCase):
-    def test_dummy(self):
-        self.assertTrue(leapyear.is_leap_year(2024))
-
-
-if __name__ == "__main__":
-    unittest.main()
-
-```
-
----
-
-<h2 class="fixed-top">
-  Aufgabe x - Unit tests - Schaltjahr - Beispiel für Implementierung
-</h2>
-
-Datei `leapyear.py`:
-
-```python
-def is_leap_year(year: int) -> bool:
-    return False
-
-```
+- _Template_: [`test_leapyear.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/leapyear/template/test_leapyear.py)
+- _Template_: [`leapyear.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/leapyear/template/leapyear.py)
 
 ---
 
