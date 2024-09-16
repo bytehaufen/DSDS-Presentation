@@ -202,6 +202,27 @@ else:
   - System Tests
   - Fuzzing
 
+  <!-- Unit Tests:
+     - Testen einzelne, isolierte Komponenten
+     - Sicherstellen der korrekten Funktion von Funktionen/Methoden -->
+
+<!-- Integration Tests:
+     - Prüfen das Zusammenspiel mehrerer Module
+     - Sicherstellen der korrekten Interaktion zwischen Komponenten -->
+
+<!-- Penetration Tests:
+     - Simulieren gezielte Angriffe
+     - Finden von Sicherheitslücken und Schwachstellen -->
+
+<!-- System Tests:
+     - Überprüfen das gesamte System in realistischer Umgebung
+     - Sicherstellen, dass das System den Anforderungen entspricht -->
+
+<!-- Fuzzing:
+     - Automatisierte Eingaben zufällig generieren
+     - Finden von Schwachstellen wie Abstürzen oder Sicherheitslücken -->
+
+
 ---
 
 <h2 class="fixed-top">
