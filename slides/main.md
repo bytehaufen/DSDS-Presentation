@@ -118,17 +118,6 @@ TODO: Erst gesetzlich oder erst technisch? -- Langweiligeres zuerst?
 --- 
 
 ##### Aus technischer Sicht
-TODO: Python or js ? &rArr; Consistence
-
-```javascript
-let response = fetch("https://api.example.com/data");
-
-if (typeof response === "undefined") {
-  // Handle error
-} else {
-  // Handle response
-}
-```
 
 ```python
 response = requests.get("https://api.example.com/data")
