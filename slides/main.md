@@ -62,7 +62,6 @@ von Kevin Böhme und Rico Ukro
 - [ ] Discuss: \
        - Use Mentimeter (or similar) opinion poll?
           Questions: Do you regularly test your software? Will you change your testing habits after this presentation?
-      - Create interactive quiz? (e.g. Kahoot)
 - [ ] Collect all inline quotes
 - [ ] Make example solutions for all exercises as files
 - [ ] Number the exercises
@@ -112,10 +111,6 @@ von Kevin Böhme und Rico Ukro
 </h1>
 
 ---
-
-TODO: Erst gesetzlich oder erst technisch? -- Langweiligeres zuerst?
-
---- 
 
 ##### Aus technischer Sicht
 
