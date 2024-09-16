@@ -215,7 +215,7 @@ else:
 - Ziel: Sicherstellen, dass jede Komponente isoliert korrekt funktioniert
 - Wichtig für Datenschutz: Vermeidung unsicherer Funktionen/Klassen in Modulen
 
-> _&#8222;Software unit testing is a process that includes the performance of test planning, the acquisition of a test set, and the measurement of a test unit against its requirements.&#8220;_ <span class="source">Quelle: [IEEE Standard for Software Unit Testing]()</span>
+> _&#8222;Software unit testing is a process that includes the performance of test planning, the acquisition of a test set, and the measurement of a test unit against its requirements.&#8220;_ <span class="source">Quelle: [IEEE Standard for Software Unit Testing](https://ieeexplore.ieee.org/document/27763)</span>
 
 ---
 
