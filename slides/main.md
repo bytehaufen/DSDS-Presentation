@@ -320,6 +320,38 @@ else:
 ---
 
 <h2 class="fixed-top">
+  Test Driven Development
+</h2>
+
+- Wasserfallmodell: Testen erst am Projektende vorgesehen
+- V-Modell: Zeitlich klar definierte Abfolge der Testphasen
+- Agiles Umfeld:
+  - Tests müssen häufig und unter gleichen Bedingungen durchführbar sein
+  - Geringer Aufwand für Testausführung erforderlich
+  - Tests sollten zeitnah zur Umsetzung der Funktionalität bereitstehen
+  - Ziel: Tests müssen mit dem ständigen Wandel Schritt halten
+
+<div class="centered source">
+
+  Quelle:
+  [https://blogs.zeiss.com/digital-innovation/de/test-driven-development/](https://blogs.zeiss.com/digital-innovation/de/test-driven-development/)
+</div>
+
+---
+
+<div class="centered">
+  <img src="res/test_driven_development.png" alt="Test driven development" style="width: 70%;"/>
+</div>
+
+<div class="centered source">
+
+  Quelle:
+  [https://blogs.zeiss.com/digital-innovation/de/test-driven-development/](https://blogs.zeiss.com/digital-innovation/de/test-driven-development/)
+</div>
+
+---
+
+<h2 class="fixed-top">
   Link zu den Aufgaben
 </h2>
 TODO: link zu den Beispielen reinwerkeln
