@@ -69,6 +69,7 @@ von Kevin Böhme und Rico Ukro
 - [ ] Choose online platform to propagate for exercises
   - [onlinegdb.com](https://www.onlinegdb.com/)
   - ...
+- [ ] Add offset for slide content, because of `fixed-top` heading
 
 ---
 
