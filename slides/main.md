@@ -110,6 +110,36 @@ von Kevin Böhme und Rico Ukro
   Warum Tests?
 </h1>
 
+---
+
+<h2 class="fixed-top">
+  Negativ Beispiele
+</h2>
+
+- 1985: Kanadische Strahlentherapie Therac-25
+  - Softwarefehler führte zu tödlicher Strahlendosis
+  - 3 Verletzte, 3 Tote
+
+- 1994: Airbus A300 der China Airlines
+  - Absturz aufgrund eines Softwarefehlers
+  - 264 Tote
+
+<br><span class="source">Quelle: [https://www.geeksforgeeks.org/software-testing-basics/)</span>
+
+---
+
+<h2 class="fixed-top">
+  Negativ Beispiele
+</h2>
+
+- 1996: US-Bank Softwarefehler
+  - 823 Kunden fälschlicherweise 920 Millionen US-Dollar gutgeschrieben
+
+- 2015: Bloomberg-Terminal Absturz in London
+  - 300.000 Händler betroffen
+  - Verkauf von 3 Mrd. Pfund Schulden verschoben
+
+  <br><span class="source">Quelle: [https://www.geeksforgeeks.org/software-testing-basics/)</span>
 
 ---
 
