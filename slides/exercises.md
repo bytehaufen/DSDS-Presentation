@@ -43,6 +43,7 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
 </style>
 
 ![bg left:40% 80%](res/ba_dresden_logo.svg)
+
 # Datenschutz/-sicherheit
 
 ### und die Notwendigkeit von Tests
@@ -55,11 +56,11 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
   Aufgabe x - Unit tests - Schaltjahr
 </h2>
 
-Ihr Kunde &#8222;Karl&#8220; hat für sein Produkt &#8222;Karl's Karlender&#8220;, bei Ihnen angefragt, die fehlende Implementierung für die Berechnung der Schaltjahre zu übernehmen: 
+Ihr Kunde &#8222;Karl&#8220; hat für sein Produkt &#8222;Karl's Karlender&#8220;, bei Ihnen angefragt, die fehlende Implementierung für die Berechnung der Schaltjahre zu übernehmen:
 
 1. Entwickeln Sie Unit-Tests für eine Funktion `is_leap_year(year: int) -> bool`, die überprüft, ob ein gegebenes Jahr ein Schaltjahr ist
 2. Erstellen Sie mindestens 5 Testfälle, die verschiedene Szenarien abdecken (z.B. reguläre Jahre, Schaltjahre, Grenzfälle).
-_Hinweise: Nutzen Sie die Bibliothek `unittest`_
+   _Hinweise: Nutzen Sie die Bibliothek `unittest`_
 3. Implementieren Sie die Funktion `is_leap_year(year: int) -> bool`
 
 _Negative Kalenderjahre sind nicht vorgesehen._
@@ -84,12 +85,10 @@ Als kleine Starthilfe:
 Für einen renommierten Online-Sockenversand soll die bisherige übelst veraltete und fehleranfällige MS-SQL-Server Implementierung durch ein modernes Python Backend ersetzt werden.
 
 Ihre Aufgabe ist es:
+
 1. Unit-Tests für die Funktionalität des Sockenversands zu entwickeln
-   _Template_: [`test_sockstore_unit.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/sockstore/template/test_sockstore_unit.py)
 2. Implementierung der Funktionalität des Sockenversands zu erstellen
-   _Template_: [`sockstore.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/sockstore/template/sockstore.py)
 3. Integrationstests für die Funktionalität des Sockenversands zu entwickeln
-   _Template_: [`test_sockstore_integration.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/sockstore/template/test_sockstore_integration.py)
 
 ---
 
@@ -105,3 +104,14 @@ Anforderungen:
 - Methode `add_sock(self, color: str, quantity: int)`: Fügt Socken einer bestimmten Farbe und Menge hinzu
 
 ---
+
+<h2 class="fixed-top">
+  Aufgabe x - Unit/Integration tests - Sockenversand
+</h2>
+
+Als kleine Starthilfe:
+
+- _Template_: [`test_sockstore_unit.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/sockstore/template/test_sockstore_unit.py)
+
+- _Template_: [`sockstore.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/sockstore/template/sockstore.py)
+- _Template_: [`test_sockstore_integration.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/sockstore/template/test_sockstore_integration.py)
