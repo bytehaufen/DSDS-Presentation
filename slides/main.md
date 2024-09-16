@@ -179,7 +179,7 @@ else:
 ---
 
 <h2 class="fixed-top">
- Überblick über Testarten
+ Grundlagen von Tests und Testverfahren
 </h2>
 
 - Notwendig um Fehler in Software zu finden
@@ -189,6 +189,18 @@ else:
   - Sicherheit
 - Verbindung zum Datenschutz:
   - Sicherstellen, dass keine personenbezogenen Daten kompromittiert werden
+
+---
+
+<h2 class="fixed-top">
+ Überblick über Testarten
+</h2>
+
+  - Unit Tests
+  - Integration Tests
+  - Penetration Tests
+  - System Tests
+  - Fuzzing
 
 ---
 
