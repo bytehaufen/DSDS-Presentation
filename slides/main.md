@@ -110,20 +110,6 @@ von Kevin Böhme und Rico Ukro
   Warum Tests?
 </h1>
 
----
-
-##### Aus technischer Sicht
-
-```python
-response = requests.get("https://api.example.com/data")
-
-if response.status_code != 200:
-    # Handle error
-else:
-    # Handle response
-```
-
-- Warum ist Testing in diesem Kontext wichtig?
 
 ---
 
@@ -168,6 +154,21 @@ else:
 - Systeme und Prozesse evaluieren
 
 > _&#8222;Ein Verfahren zur **regelmäßigen** Überprüfung, Bewertung und Evaluierung der Wirksamkeit der technischen und organisatorischen Maßnahmen zur Gewährleistung der Sicherheit der Verarbeitung.&#8220;_ <span class="source">Quelle: [Artikel 32 Abs. 1(f) DSGVO](https://dsgvo-gesetz.de/art-32-dsgvo/)</span>
+
+---
+
+##### Aus technischer Sicht
+
+```python
+response = requests.get("https://api.example.com/data")
+
+if response.status_code != 200:
+    # Handle error
+else:
+    # Handle response
+```
+
+- Warum ist Testing in diesem Kontext wichtig?
 
 ---
 
