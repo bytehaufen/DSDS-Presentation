@@ -234,6 +234,34 @@ else:
 
 ---
 
+<h2 class="fixed-top">
+  Integration Tests
+</h2>
+
+- Testen das Zusammenspiel mehrerer Komponenten
+- Ziel: Sicherstellen, dass die Schnittstellen und Datenflüsse korrekt funktionieren
+- Im Kontext von Datensicherheit/-schutz: Prüfen, ob sensible Daten korrekt zwischen Modulen übermittelt werden
+
+> _&#8222;Software Integration V&V ensures that software components are validated as they are incrementally integrated&#8220;_ <span class="source">Quelle: [IEEE/ISO/IEC International Standard - Software and systems engineering--Software testing--Part 4: Test techniques,](https://ieeexplore.ieee.org/document/9591574)</span>
+
+<!-- V&V: Verification and Validation -->
+
+---
+
+<h2 class="fixed-top">
+  Integration Tests
+</h2>
+
+<div class="centered">
+  <img src="res/integration-test-diagram.png" alt="Integration Test Diagramm" style="width: 70%;"/>
+</div>
+
+<div class="centered source">
+
+  Quelle:
+  [https://dancerscode.com/posts/integration-tests/](https://dancerscode.com/posts/integration-tests/)
+</div>
+
 ---
 
 ---
