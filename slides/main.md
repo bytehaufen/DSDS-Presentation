@@ -65,6 +65,7 @@ von Kevin Böhme und Rico Ukro
       - Create interactive quiz? (e.g. Kahoot)
 - [ ] Collect all inline quotes
 - [ ] Make example solutions for all exercises as files
+- [ ] Number the exercises
 
 ---
 
