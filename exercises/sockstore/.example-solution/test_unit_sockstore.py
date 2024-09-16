@@ -6,7 +6,7 @@ import unittest
 from sockstore import SockStore
 
 
-class TestSockStore(unittest.TestCase):
+class TestSockStoreUnit(unittest.TestCase):
     def setUp(self):
         self.store = SockStore()
 

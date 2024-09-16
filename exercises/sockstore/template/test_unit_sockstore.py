@@ -4,7 +4,7 @@ import unittest
 from sockstore import SockStore
 
 
-class TestSockStore(unittest.TestCase):
+class TestSockStoreUnit(unittest.TestCase):
     def setUp(self):
         # Setup for each test case
         pass
