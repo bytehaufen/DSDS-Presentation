@@ -2,6 +2,7 @@
 
 # Example Solution for the `Sockenversand-stretched-out` Exercise
 
+
 class SockStore:
     """
     This class represents a 🧦 sock store. It allows adding socks of different colors,

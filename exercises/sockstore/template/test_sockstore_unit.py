@@ -13,5 +13,6 @@ class TestSockStoreUnit(unittest.TestCase):
         # Test if a sock can be added to the store
         self.assertTrue(False)
 
+
 if __name__ == "__main__":
     unittest.main()
