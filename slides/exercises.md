@@ -4,7 +4,7 @@ theme: default
 paginate: true
 transition: overlap
 math: katex
-footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | Kevin Böhme & Rico Ukro"
+footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | \nKevin Böhme & Rico Ukro"
 ---
 
 <style>
