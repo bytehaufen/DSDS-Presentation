@@ -106,10 +106,15 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
+<h1 class="centered">
+  Warum Tests?
+</h1>
+
+---
+
 TODO: Erst gesetzlich oder erst technisch? -- Langweiligeres zuerst?
 
 --- 
-## Warum Tests? 
 
 ##### Aus technischer Sicht
 TODO: Python or js ? &rArr; Consistence
@@ -134,12 +139,6 @@ else:
 ```
 
 - Warum ist Testing in diesem Kontext wichtig?
-
----
-
-<h1 class="centered">
-  Warum Tests?
-</h1>
 
 ---
 
