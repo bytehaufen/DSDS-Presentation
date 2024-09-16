@@ -69,6 +69,7 @@ von Kevin Böhme und Rico Ukro
   - [onlinegdb.com](https://www.onlinegdb.com/)
   - ...
 - [ ] Add offset for slide content, because of `fixed-top` heading
+- [ ] Add example exercise link in the last slide
 
 ---
 
