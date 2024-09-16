@@ -188,7 +188,9 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-##### Aus technischer Sicht
+<h2 class="fixed-top">
+  Aus technischer Sicht am Beispiel
+</h2>
 
 ```python
 response = requests.get("https://api.example.com/data")
@@ -199,13 +201,15 @@ else:
     # Handle response
 ```
 
-- Warum ist Testing in diesem Kontext wichtig?
+<h3> Warum ist Testing in diesem Kontext wichtig?</h3>
 
 ---
 
-<h1 class="centered">
-  Grundlagen von Tests und Testverfahren
-</h1>
+- Fehlererkennung: API antwortet korrekt, Fehler werden richtig gehandhabt
+- Fehlertoleranz: Anwendung reagiert robust auf verschiedene Antwortcodes und Netzwerkausfälle
+- Sicherheit: Sicherstellen, dass keine sensiblen Daten kompremittiert werden
+- Zuverlässigkeit: API-Abfrage funktioniert konsistent, auch bei hoher Last oder langsamen Netzwerken
+- Validierung der Logik: Richtig implementierte Logik für verschiedene Statuscodes und Inhalte
 
 ---
 
