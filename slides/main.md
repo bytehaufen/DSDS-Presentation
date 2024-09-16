@@ -135,9 +135,9 @@ von Kevin Böhme und Rico Ukro
 - 1996: US-Bank Softwarefehler
   - 823 Kunden fälschlicherweise 920 Millionen US-Dollar gutgeschrieben
 
-- 2015: Bloomberg-Terminal Absturz in London
-  - 300.000 Händler betroffen
-  - Verkauf von 3 Mrd. Pfund Schulden verschoben
+- 2015: Bloomberg-Terminal Absturz in Londom
+  - Softwarefehler legte 300.000 Händler auf den Finanzmärkten lahm
+  - Britische Regierung musste den Verkauf von 3 Mrd. Pfund Staatsanleihen verschieben
 
   <br><span class="source">Quelle: [https://www.geeksforgeeks.org/software-testing-basics/)</span>
 
