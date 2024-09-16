@@ -66,6 +66,9 @@ von Kevin Böhme und Rico Ukro
 - [ ] Collect all inline quotes
 - [ ] Make example solutions for all exercises as files
 - [ ] Number the exercises
+- [ ] Choose online platform to propagate for exercises
+  - [onlinegdb.com](https://www.onlinegdb.com/)
+  - ...
 
 ---
 
