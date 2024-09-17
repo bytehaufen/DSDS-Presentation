@@ -313,8 +313,7 @@ else:
 
 <div class="centered source">
 
-  Quelle:
-  [https://dancerscode.com/posts/integration-tests/](https://dancerscode.com/posts/integration-tests/)
+  Quelle: [https://dancerscode.com/posts/integration-tests/](https://dancerscode.com/posts/integration-tests/)
 </div>
 
 ---
