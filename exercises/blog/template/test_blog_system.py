@@ -15,5 +15,6 @@ class TestBlogAPI(unittest.TestCase):
         # Uncomment the line below to see the content
         # print(response.json())
 
+
 if __name__ == "__main__":
     unittest.main()

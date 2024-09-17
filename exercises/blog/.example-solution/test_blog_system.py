@@ -61,7 +61,6 @@ class TestBlogAPI(unittest.TestCase):
 
     def test_update_nonexistent_post(self):
         # Test delete a post
-
         updated_post = {
             "id": 9081327509387593845789357349,
             "title": "No body will find me",
