@@ -88,6 +88,7 @@ von Kevin Böhme und Rico Ukro
    <!-- TODO: idea: No real data, generated data, eventually from a public database for this purpose -->
    <!-- TODO: add a section: test driven development -->
    <!-- TODO: add a section: mocken -->
+   <!-- TODO: add a setion: real implementation (framework) with example -->
 - Quellen 
 
 ---
