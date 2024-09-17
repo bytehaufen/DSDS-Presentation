@@ -42,7 +42,7 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
   }
 </style>
 
-![bg left:40% 80%](res/ba_dresden_logo.svg)
+![bg left:40% 80%](res/ba_dresden_logo.svg?)
 
 # Datenschutz/-sicherheit
 
@@ -279,7 +279,7 @@ else:
 </h2>
 
 <div class="centered">
-  <img src="res/unit-test-diagram.png" alt="Unit Test Diagramm" style="width: 70%;"/>
+  <img src="res/unit-test-diagram.png?" alt="Unit Test Diagramm" style="width: 70%;"/>
 </div>
 
 <div class="centered source">
@@ -308,7 +308,7 @@ else:
 </h2>
 
 <div class="centered">
-  <img src="res/integration-test-diagram.png" alt="Integration Test Diagramm" style="width: 70%;"/>
+  <img src="res/integration-test-diagram.png?" alt="Integration Test Diagramm" style="width: 70%;"/>
 </div>
 
 <div class="centered source">
@@ -340,7 +340,7 @@ else:
 ---
 
 <div class="centered">
-  <img src="res/test_driven_development.png" alt="Test driven development" style="width: 70%;"/>
+  <img src="res/test_driven_development.png?" alt="Test driven development" style="width: 70%;"/>
 </div>
 
 <div class="centered source">
