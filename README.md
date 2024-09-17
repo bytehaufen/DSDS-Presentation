@@ -14,16 +14,16 @@ installed [Node.js](https://nodejs.org/) v16 and later.
 
 ```bash
 # Convert slide deck into HTML
-npx @marp-team/marp-cli@latest ./slides/main.md --html --engine ./engine/engine.js
-npx @marp-team/marp-cli@latest ./slides/main.md --html -o output.html --engine ./engine/engine.js
+npx @marp-team/marp-cli@latest ./slides/main.md --html --allow-local-files --engine ./engine/engine.js
+npx @marp-team/marp-cli@latest ./slides/main.md --html --allow-local-files -o output.html --engine ./engine/engine.js
 
 # Convert slide deck into PDF
-npx @marp-team/marp-cli@latest ./slides/main.md  --html --pdf --engine ./engine/engine.js
-npx @marp-team/marp-cli@latest ./slides/main.md --html -o output.pdf --engine ./engine/engine.js
+npx @marp-team/marp-cli@latest ./slides/main.md  --html --allow-local-files --pdf --engine ./engine/engine.js
+npx @marp-team/marp-cli@latest ./slides/main.md --html --allow-local-files -o output.pdf --engine ./engine/engine.js
 
 # Convert slide deck into PowerPoint document (PPTX)
-npx @marp-team/marp-cli@latest ./slides/main.md --html --pptx --engine ./engine/engine.js
-npx @marp-team/marp-cli@latest ./slides/main.md --html -o output.pptx --engine ./engine/engine.js
+npx @marp-team/marp-cli@latest ./slides/main.md --html --allow-local-files --pptx --engine ./engine/engine.js
+npx @marp-team/marp-cli@latest ./slides/main.md --html --allow-local-files -o output.pptx --engine ./engine/engine.js
 
 # Watch mode
 npx @marp-team/marp-cli@latest -w ./slides/main.md --html --engine ./engine/engine.js
