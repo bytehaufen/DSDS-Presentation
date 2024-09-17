@@ -115,3 +115,30 @@ Als kleine Starthilfe:
 
 - _Template_: [`sockstore.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/sockstore/template/sockstore.py)
 - _Template_: [`test_sockstore_integration.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/sockstore/template/test_sockstore_integration.py)
+
+---
+  
+<h2 class="fixed-top">
+  Aufgabe x - System tests - Blog
+</h2>
+
+Einer Ihrer Kunden, die Firma &#8222;Bloggify&#8220;, hat Sie beauftragt, die System tests für ihre Blogging-Plattform zu entwickeln. Das Plattform-Backend ist mittels REST-API über [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts) erreichbar.
+
+Ihre Aufgabe ist es:
+
+1. System tests für die Blogging-Plattform zu entwickeln
+2. Schwachstellen mittels der System tests in der Blogging-Plattform zu finden, um diese dem Kunden zu melden
+
+---
+
+<h2 class="fixed-top">
+  Aufgabe x - System tests - Blog
+</h2>
+
+Guide für die API:
+- [https://jsonplaceholder.typicode.com/guide](https://jsonplaceholder.typicode.com/guide)
+
+Als kleine Starthilfe:
+
+- _Template_: [`test_blog_system.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/blog/template/test_blog_system.py)
+
