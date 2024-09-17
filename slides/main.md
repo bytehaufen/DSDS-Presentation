@@ -80,8 +80,8 @@ von Kevin Böhme und Rico Ukro
 - Grundlagen von Tests und Testverfahren
   - Unit Tests
   - Integration Tests
-  - Penetration Tests
   - System Tests
+  - Penetration Tests
   - Fuzzing
 - Testverfahren für Datensicherheit im Detail
 - Datenschutz: Besonderheiten beim Testen
@@ -315,6 +315,49 @@ else:
 
   Quelle: [https://dancerscode.com/posts/integration-tests/](https://dancerscode.com/posts/integration-tests/)
 </div>
+
+---
+
+<h2 class="fixed-top">
+  System Tests
+</h2>
+
+
+- Testen das gesamte System als Ganzes
+- Ziel: Sicherstellen, dass die Software als Gesamtsystem funktioniert und sicher ist
+- Relevant für Datenschutz: Überprüfung des gesamten Datenflusses und der Einhaltung von Sicherheitsstandards.
+
+> _&#8222;The objective of the system testing is to find defects in features of the system compared to the way it has
+been defined in the software system requirements.&#8220;_ <span class="source">Quelle: [ISO/IEC/IEEE International Standard - Software and systems engineering —Software testing —Part 1:Concepts and definitions](https://ieeexplore.ieee.org/document/6588537)</span>
+
+---
+
+<h2 class="fixed-top">
+  System Tests
+</h2>
+
+<div class="centered">
+  <img src="res/system-test-diagram.png?" alt="System Test Diagramm" style="width: 60%;"/>
+</div>
+<div class="centered source">
+
+  Quelle: [https://dancerscode.com/posts/system-testing/](https://dancerscode.com/posts/system-testing/)
+</div>
+
+<!-- System Test deckt sowohl die Anwendung als auch alle Abhängigkeiten ab -->
+<!-- Umfasst alle externen Systeme und Schnittstellen, die die Anwendung nutzt -->
+
+<!-- Ziel: -->
+<!-- - Überprüfung der vollständigen Funktionsfähigkeit der gesamten Anwendung unter realen Bedingungen -->
+<!-- - Sicherstellen, dass alle Komponenten (inklusive externe Abhängigkeiten) korrekt integriert und funktional sind -->
+
+---
+
+Penetration Tests
+
+---
+
+Fuzzing
 
 ---
 
