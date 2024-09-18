@@ -1,7 +1,7 @@
 # DSDS-Presentation
 
 Slides for the presentation of the DSDS module in the BA-Dresden with the
-topic (_not final_) **Testing**.
+topic **Datenschutz/-sicherheit und die Notwendigkeit von Tests**.
 
 The slides have been created with [marp](https://marp.app/).
 
