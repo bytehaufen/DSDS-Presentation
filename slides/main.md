@@ -356,7 +356,44 @@ else:
 
 ---
 
-Penetration Tests
+<h2 class="fixed-top">
+  Penetration Tests
+</h2>
+
+- Simulierte Angriffe auf ein System, um Sicherheitslücken zu identifizieren
+- Auch bekannt als _ethical hacking_
+- Besonders wichtig für Datenschutz und Datensicherheit, um Schwachstellen frühzeitig zu erkennen
+
+- Verschiedene Arten von Penetration Tests:
+  - White Box
+  - Black Box
+  - Grey Box
+
+
+<!-- White Box: Tester hat Zugriff auf den Quellcode und die Systemarchitektur -->
+<!-- Black Box: Tester hat keine Informationen über das System -->
+<!-- Grey Box: Mischung aus White Box und Black Box -->
+
+---
+
+<h2 class="fixed-top">
+  Penetration Tests
+</h2>
+
+Unterschiedliche Angriffsvektoren:
+- Network
+- Web Application
+- Client Side
+- Wireless
+- Social Engineering
+- Physical Penetration Testing
+
+<!-- Network: z.B. Angriffe auf Netzwerkprotokolle und -dienste -->
+<!-- Web Application: z.B. Datenbankinjektionen, Source Code -->
+<!-- Client Side: z.B. Angriffe auf Browser -> Cross Site Scripting -->
+<!-- Wireless: z.B. Angriffe auf WLAN -->
+<!-- Social Engineering: z.B. Phishing -->
+<!-- Physical Penetration Testing: z.B. Einbruch -->
 
 ---
 
@@ -405,4 +442,4 @@ TODO: link zu den Beispielen reinwerkeln
 
 ## Quellen
 
-- _[Placeholder](www.example.com)_
+- [https://purplesec.us/learn/types-penetration-testing](https://purplesec.us/learn/types-penetration-testing/)
