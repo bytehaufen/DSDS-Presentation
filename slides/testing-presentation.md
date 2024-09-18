@@ -66,11 +66,11 @@ von Kevin Böhme und Rico Ukro
 - [ ] Collect all inline quotes
 - [x] Make example solutions for all exercises as files
 - [x] Number the exercises
-- [ ] Choose online platform to propagate for exercises
+- [x] Choose online platform to propagate for exercises
   - [onlinegdb.com](https://www.onlinegdb.com/)
   - ...
 - [ ] Add offset for slide content, because of `fixed-top` heading
-- [ ] Add example exercise link in the last slide
+- [x] Add example exercise link in the last slide
   - Difficult - match the presentation with markdown or the generated pdf?
 - [ ] Add this topic: [Role of Test Automation in a CI/CD Pipeline(https://dancerscode.com/posts/role-of-test-automation-in-a-ci-cd-pipeline/)]?
 - [ ] Add this topic: [Test Benefit Analysis](https://dancerscode.com/posts/test-benefit-analysis/)?
@@ -604,10 +604,10 @@ Zum ausprobieren z.B. auf: [onlinegdb.com](https://www.onlinegdb.com/)
 
 ---
 
-<h2 class="fixed-top">
+<h2 class="fixed-top" style="text-align: center; width: 100%;">
   Link zu den Aufgaben
 </h2>
-<a href="exercises.md">Gehe zu den Aufgaben</a>
+<a href="https://github.com/bytehaufen/DSDS-Presentation/blob/build/pdfs/testing-exercises.pdf" style="text-align: center; display: block;">Gehe zu den Aufgaben</a>
 
 ---
 
