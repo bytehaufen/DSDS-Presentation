@@ -56,6 +56,7 @@ von Kevin Böhme und Rico Ukro
 
 # TODO
 
+- [ ] Add or remove picture captions
 - [ ] Reorder slides
 - [ ] Make this stuff beautiful
 - [ ] Check Abbreviations
