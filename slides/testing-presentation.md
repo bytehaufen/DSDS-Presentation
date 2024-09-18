@@ -64,7 +64,6 @@ von Kevin Böhme und Rico Ukro
        - Use Mentimeter (or similar) opinion poll?
           Questions: Do you regularly test your software? Will you change your testing habits after this presentation?
 - [ ] Collect all inline quotes
-  - Stackoverflow as source?
 - [x] Make example solutions for all exercises as files
 - [x] Number the exercises
 - [ ] Choose online platform to propagate for exercises
@@ -617,4 +616,4 @@ Zum ausprobieren z.B. auf: [onlinegdb.com](https://www.onlinegdb.com/)
 - [https://blogs.zeiss.com/digital-innovation/de/test-driven-development/](https://blogs.zeiss.com/digital-innovation/de/test-driven-development/)
 - [https://purplesec.us/learn/types-penetration-testing](https://purplesec.us/learn/types-penetration-testing/)
 - [https://www.code-intelligence.com/what-is-fuzz-testing](https://www.code-intelligence.com/what-is-fuzz-testing)
-- [https://stackoverflow.com/questions/2665812/what-is-mocking](https://stackoverflow.com/questions/2665812/what-is-mocking)
+- [https://microsoft.github.io/code-with-engineering-playbook/automated-testing/unit-testing/mocking/](https://microsoft.github.io/code-with-engineering-playbook/automated-testing/unit-testing/mocking/)
