@@ -399,6 +399,9 @@ Arten von Fuzz-Tests:
 - **Abdeckungsgesteuert**: Optimiert Mutationen für maximale Codeabdeckung
 
 <!-- Codeabdeckung: Misst, wie viel Prozent des Programmcodes durch Tests ausgeführt wird -->
+<!-- White Box: Tester hat Zugriff auf den Quellcode und die Systemarchitektur -->
+<!-- Black Box: Tester hat keine Informationen über das System -->
+<!-- Grey Box: Mischung aus White Box und Black Box -->
 
 ---
 
@@ -414,11 +417,6 @@ Arten von Fuzz-Tests:
   - White Box
   - Black Box
   - Grey Box
-
-
-<!-- White Box: Tester hat Zugriff auf den Quellcode und die Systemarchitektur -->
-<!-- Black Box: Tester hat keine Informationen über das System -->
-<!-- Grey Box: Mischung aus White Box und Black Box -->
 
 ---
 
