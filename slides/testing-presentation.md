@@ -64,6 +64,7 @@ von Kevin Böhme und Rico Ukro
        - Use Mentimeter (or similar) opinion poll?
           Questions: Do you regularly test your software? Will you change your testing habits after this presentation?
 - [ ] Collect all inline quotes
+  - Stackoverflow as source?
 - [x] Make example solutions for all exercises as files
 - [x] Number the exercises
 - [ ] Choose online platform to propagate for exercises
@@ -71,6 +72,7 @@ von Kevin Böhme und Rico Ukro
   - ...
 - [ ] Add offset for slide content, because of `fixed-top` heading
 - [ ] Add example exercise link in the last slide
+  - Difficult - match the presentation with markdown or the generated pdf?
 - [ ] Add this topic: [Role of Test Automation in a CI/CD Pipeline(https://dancerscode.com/posts/role-of-test-automation-in-a-ci-cd-pipeline/)]?
 - [ ] Add this topic: [Test Benefit Analysis](https://dancerscode.com/posts/test-benefit-analysis/)?
 
