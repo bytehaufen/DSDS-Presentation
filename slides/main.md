@@ -357,6 +357,52 @@ else:
 ---
 
 <h2 class="fixed-top">
+  Fuzz Tests - Fuzzing
+</h2>
+
+- Testmethode, bei der zufällige Daten an das System gesendet werden
+- Ziel: Entdecken von Schwachstellen durch ungewöhnliche oder unerwartete Eingaben.
+- Datenschutzrelevant: Aufdecken von Schwachstellen, die zu unbefugtem Zugriff auf personenbezogene Daten führen könnten.
+
+<!-- z.B. Buffer Overflows, Abstürze oder Sicherheitslücken -->
+
+---
+
+<h2 class="fixed-top">
+  Fuzz Tests - Fuzzing
+</h2>
+
+<div class="centered">
+  <img src="res/SAST - InstrumentedFuzzing.webp?" alt="Static Analysis and Code Fuzzing in the V-model" style="width: 60%;"/>
+</div>
+<div class="centered source">
+
+  Static Analysis and Code Fuzzing in the V-model
+  Quelle: [https://dancerscode.com/posts/system-testing/](https://www.code-intelligence.com/what-is-fuzz-testing)
+</div>
+
+---
+
+<h2 class="fixed-top">
+  Fuzz Tests - Fuzzing
+</h2>
+
+Arten von Fuzz-Tests:
+
+- **Dumb Fuzzers**: Unbewusst der Eingabestruktur, generieren zufällige Eingaben
+- **Smart Fuzzers**: Bewusst der Eingabestruktur, erzeugen gezielte Eingaben
+- **Mutationsbasiert**: Verändern bestehende Eingaben in semivalide Varianten
+- **Generationsbasiert**: Erzeugen Eingaben neu basierend auf bekannten Strukturen
+- **Black-Box**: Kein Wissen über die Programminterne Struktur, zufällige Eingaben
+- **White-Box**: Kennt die Programmstruktur, erstellt gezielte Eingaben
+- **Gray-Box**: Teilweise Kenntnis der Struktur, Mischung aus Black- und White-Box
+- **Abdeckungsgesteuert**: Verfolgt die Codeabdeckung und optimiert Mutationen, um maximale Abdeckung zu erzielen
+
+<!-- Codeabdeckung: Misst, wie viel Prozent des Programmcodes durch Tests ausgeführt wird -->
+
+---
+
+<h2 class="fixed-top">
   Penetration Tests
 </h2>
 
@@ -409,53 +455,6 @@ Phasen eines Penetration Tests:
 3. Exploitation (Ausnutzung gefundener Schwachstellen)
 4. Post-Exploitation (z.B. Aufrechterhaltung des Zugangs)
 5. Reporting (Erstellung eines Berichts mit Empfehlungen)
-
----
-
-
-<h2 class="fixed-top">
-  Fuzz Tests - Fuzzing
-</h2>
-
-- Testmethode, bei der zufällige Daten an das System gesendet werden
-- Ziel: Entdecken von Schwachstellen durch ungewöhnliche oder unerwartete Eingaben.
-- Datenschutzrelevant: Aufdecken von Schwachstellen, die zu unbefugtem Zugriff auf personenbezogene Daten führen könnten.
-
-<!-- z.B. Buffer Overflows, Abstürze oder Sicherheitslücken -->
-
----
-
-<h2 class="fixed-top">
-  Fuzz Tests - Fuzzing
-</h2>
-
-<div class="centered">
-  <img src="res/SAST - InstrumentedFuzzing.webp?" alt="Static Analysis and Code Fuzzing in the V-model" style="width: 60%;"/>
-</div>
-<div class="centered source">
-
-  Static Analysis and Code Fuzzing in the V-model
-  Quelle: [https://dancerscode.com/posts/system-testing/](https://www.code-intelligence.com/what-is-fuzz-testing)
-</div>
-
----
-
-<h2 class="fixed-top">
-  Fuzz Tests - Fuzzing
-</h2>
-
-Arten von Fuzz-Tests:
-
-- **Dumb Fuzzers**: Unbewusst der Eingabestruktur, generieren zufällige Eingaben
-- **Smart Fuzzers**: Bewusst der Eingabestruktur, erzeugen gezielte Eingaben
-- **Mutationsbasiert**: Verändern bestehende Eingaben in semivalide Varianten
-- **Generationsbasiert**: Erzeugen Eingaben neu basierend auf bekannten Strukturen
-- **Black-Box**: Kein Wissen über die Programminterne Struktur, zufällige Eingaben
-- **White-Box**: Kennt die Programmstruktur, erstellt gezielte Eingaben
-- **Gray-Box**: Teilweise Kenntnis der Struktur, Mischung aus Black- und White-Box
-- **Abdeckungsgesteuert**: Verfolgt die Codeabdeckung und optimiert Mutationen, um maximale Abdeckung zu erzielen
-
-<!-- Codeabdeckung: Misst, wie viel Prozent des Programmcodes durch Tests ausgeführt wird -->
 
 ---
 
