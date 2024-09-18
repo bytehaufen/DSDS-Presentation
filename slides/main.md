@@ -85,8 +85,11 @@ von Kevin Böhme und Rico Ukro
   - Unit Tests
   - Integration Tests
   - System Tests
-  - Penetration Tests
   - Fuzzing
+  - Penetration Tests
+  - Weiterführende Testverfahren
+- Umsetzung von Tests
+- TODO: Add lifedemo [onlinegdb.com](https://www.onlinegdb.com/)
 - Testverfahren für Datensicherheit im Detail
 - Datenschutz: Besonderheiten beim Testen
    <!-- TODO: idea: No real data, generated data, eventually from a public database for this purpose -->
@@ -475,8 +478,25 @@ Phasen eines Penetration Tests:
 
 ---
 
+# Umsetzung von Tests
+
+---
+
 <h2 class="fixed-top">
-  Test Driven Development
+  Testdaten und Datenschutz
+</h2>
+
+Erforderlich bei Tests von Software, die personenbezogene Daten verarbeitet:
+
+- **Testdaten anonymisieren** oder pseudonymisieren, um DSGVO-Anforderungen zu erfüllen.
+- **Automatisierte Tools** nutzen, um sichere und DSGVO-konforme Testdaten zu generieren.
+- **Zugriffsbeschränkungen** für Testumgebungen einführen, um Missbrauch von Testdaten zu verhindern.
+
+> _&#8222;Personenbezogene Daten müssen dem Zweck angemessen und erheblich sowie auf das für die Zwecke der Verarbeitung notwendige Maß beschränkt sein („Datenminimierung“);&#8220;_ <span class="source">Quelle: [Artikel 5 Abs. 1(c) DSGVO](https://dsgvo-gesetz.de/art-5-dsgvo/)</span>
+---
+
+<h2 class="fixed-top">
+  Test Driven Development (TDD)
 </h2>
 
 - Wasserfallmodell: Testen erst am Projektende vorgesehen
