@@ -70,6 +70,8 @@ von Kevin Böhme und Rico Ukro
   - ...
 - [ ] Add offset for slide content, because of `fixed-top` heading
 - [ ] Add example exercise link in the last slide
+- [ ] Add this topic: [Role of Test Automation in a CI/CD Pipeline(https://dancerscode.com/posts/role-of-test-automation-in-a-ci-cd-pipeline/)]?
+- [ ] Add this topic: [Test Benefit Analysis](https://dancerscode.com/posts/test-benefit-analysis/)?
 
 ---
 
