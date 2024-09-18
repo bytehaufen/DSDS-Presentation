@@ -5,6 +5,12 @@ topic (_not final_) **Testing**.
 
 The slides have been created with [marp](https://marp.app/).
 
+## TL;DR
+
+Build artefacts aka pdf's of the slides can be found in the
+[pdfs/](https://github.com/bytehaufen/DSDS-Presentation/tree/build/pdfs) folder of
+the build branch.
+
 ## Interaction with the _marp-cli_ (stolen from the [marp documentation](https://github.com/marp-team/marp-cli))
 
 [npx (`npm exec`)](https://docs.npmjs.com/cli/v7/commands/npx) is the best way to
