@@ -56,6 +56,7 @@ von Kevin Böhme und Rico Ukro
 
 # TODO
 
+- [ ] Move chapter "Test driven development" before "tests chapters?"
 - [ ] Add or remove picture captions
 - [ ] Reorder slides
 - [ ] Make this stuff beautiful
