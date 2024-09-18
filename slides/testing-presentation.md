@@ -558,6 +558,48 @@ Erforderlich bei Tests von Software, die personenbezogene Daten verarbeitet:
 ---
 
 <h2 class="fixed-top">
+  Und wie erstelle ich Tests?
+</h2>
+
+##### Beispiel: Addierer
+
+
+```python
+# adder.py
+def add(a, b):
+    # Addiert zwei Zahlen
+    return a + b
+```
+
+---
+
+<h2 class="fixed-top">
+  Und wie erstelle ich Tests?
+</h2>
+
+##### Dazugehöriger Test
+
+```python
+# test_adder.py    # Bei online IDEs: main.py
+import unittest # Importiere das Testframework
+from adder import add # Importiere die Funktion add aus adder.py
+
+class TestAdder(unittest.TestCase):
+    def test_add_small_positiv_numbers(self): # Testfall 1
+        self.assertEqual(add(1, 2), 3) # Erwartetes Ergebnis: 3
+
+    def test_add_small_negativ_numbers(self): # Testfall 2
+      self.assertEqual(add(-1, -2), -3) # Erwartetes Ergebnis: -3
+
+if __name__ == '__main__':
+  unittest.main() # Starte die Testausführung
+```
+
+Zum ausprobieren z.B. auf: [onlinegdb.com](https://www.onlinegdb.com/)
+
+---
+
+<h2 class="fixed-top">
   Link zu den Aufgaben
 </h2>
 <a href="exercises.md">Gehe zu den Aufgaben</a>
