@@ -56,7 +56,6 @@ von Kevin Böhme und Rico Ukro
 
 # TODO
 
-- [ ] Move chapter "Test driven development" before "tests chapters?"
 - [ ] Add or remove picture captions
 - [ ] Reorder slides
 - [ ] Make this stuff beautiful
@@ -77,26 +76,50 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-## Agenda
+<h1 class="centered">
+  Agenda
+</h1>
 
-- Was sind Tests?
-- Warum Tests?
-- Grundlagen von Tests und Testverfahren
-  - Unit Tests
-  - Integration Tests
-  - System Tests
-  - Fuzzing
-  - Penetration Tests
-  - Weiterführende Testverfahren
-- Umsetzung von Tests
-- TODO: Add lifedemo [onlinegdb.com](https://www.onlinegdb.com/)
-- Testverfahren für Datensicherheit im Detail
-- Datenschutz: Besonderheiten beim Testen
-   <!-- TODO: idea: No real data, generated data, eventually from a public database for this purpose -->
-   <!-- TODO: add a section: test driven development -->
-   <!-- TODO: add a section: mocken -->
-   <!-- TODO: add a setion: real implementation (framework) with example -->
-- Quellen 
+<div style="display: flex; justify-content: space-between;">
+
+  <div style="flex: 1; padding-right: 10px;">
+    <ul>
+      <li>Was sind Tests?</li>
+      <li>Warum Tests?</li>
+      <li>Test Driven Development (TDD)</li>
+    </ul>
+  </div>
+
+  <div style="flex: 1; padding-left: 10px; padding-right: 10px;">
+    <ul>
+      <li>Grundlagen von Tests und Testverfahren
+        <ul>
+          <li>Unit Tests</li>
+          <li>Integration Tests</li>
+          <li>System Tests</li>
+          <li>Fuzzing</li>
+          <li>Penetration Tests</li>
+          <li>Weiterführende Testverfahren</li>
+        </ul>
+      </li>
+      <li>Mocking</li>
+    </ul>
+  </div>
+
+  <div style="flex: 1; padding-left: 10px;">
+    <ul>
+      <li>Umsetzung von Tests</li>
+      <li>TODO: Add lifedemo <a href="https://www.onlinegdb.com/">onlinegdb.com</a></li>
+      <li>Testverfahren für Datensicherheit im Detail</li>
+      <li>Datenschutz: Besonderheiten beim Testen
+        <!-- TODO: idea: No real data, generated data, eventually from a public database for this purpose -->
+        <!-- TODO: add a setion: real implementation (framework) with example -->
+      </li>
+      <li>Quellen</li>
+    </ul>
+  </div>
+
+</div>
 
 ---
 
@@ -234,6 +257,26 @@ else:
   - Sicherheit
 - Verbindung zum Datenschutz:
   - Sicherstellen, dass keine personenbezogenen Daten kompromittiert werden
+
+---
+
+<h2 class="fixed-top">
+  Test Driven Development (TDD)
+</h2>
+
+- Wasserfallmodell: Testen erst am Projektende vorgesehen
+- V-Modell: Zeitlich klar definierte Abfolge der Testphasen
+- Agiles Umfeld:
+  - Tests müssen häufig und unter gleichen Bedingungen durchführbar sein
+  - Geringer Aufwand für Testausführung erforderlich
+  - Tests sollten zeitnah zur Umsetzung der Funktionalität bereitstehen
+  - Ziel: Tests müssen mit dem ständigen Wandel Schritt halten
+
+<div class="centered source">
+
+  Quelle:
+  [https://blogs.zeiss.com/digital-innovation/de/test-driven-development/](https://blogs.zeiss.com/digital-innovation/de/test-driven-development/)
+</div>
 
 ---
 
@@ -478,6 +521,12 @@ Phasen eines Penetration Tests:
 
 ---
 
+<h2 class="fixed-top">
+  Mocking
+</h2>
+
+---
+
 # Umsetzung von Tests
 
 ---
@@ -493,26 +542,6 @@ Erforderlich bei Tests von Software, die personenbezogene Daten verarbeitet:
 - **Zugriffsbeschränkungen** für Testumgebungen einführen, um Missbrauch von Testdaten zu verhindern.
 
 > _&#8222;Personenbezogene Daten müssen dem Zweck angemessen und erheblich sowie auf das für die Zwecke der Verarbeitung notwendige Maß beschränkt sein („Datenminimierung“);&#8220;_ <span class="source">Quelle: [Artikel 5 Abs. 1(c) DSGVO](https://dsgvo-gesetz.de/art-5-dsgvo/)</span>
----
-
-<h2 class="fixed-top">
-  Test Driven Development (TDD)
-</h2>
-
-- Wasserfallmodell: Testen erst am Projektende vorgesehen
-- V-Modell: Zeitlich klar definierte Abfolge der Testphasen
-- Agiles Umfeld:
-  - Tests müssen häufig und unter gleichen Bedingungen durchführbar sein
-  - Geringer Aufwand für Testausführung erforderlich
-  - Tests sollten zeitnah zur Umsetzung der Funktionalität bereitstehen
-  - Ziel: Tests müssen mit dem ständigen Wandel Schritt halten
-
-<div class="centered source">
-
-  Quelle:
-  [https://blogs.zeiss.com/digital-innovation/de/test-driven-development/](https://blogs.zeiss.com/digital-innovation/de/test-driven-development/)
-</div>
-
 ---
 
 <div class="centered">
