@@ -82,7 +82,7 @@ Als kleine Starthilfe:
   Aufgabe 2 - Unit/Integration tests - Sockenversand
 </h2>
 
-Für einen renommierten Online-Sockenversand soll die bisherige übelst veraltete und fehleranfällige MS-SQL-Server Implementierung durch ein modernes Python Backend ersetzt werden.
+Für einen renommierten Online-Sockenversand soll die bisherige stark veraltete und fehleranfällige MS-SQL-Server Implementierung durch ein modernes Python Backend ersetzt werden.
 
 Ihre Aufgabe ist es:
 
@@ -98,9 +98,9 @@ Ihre Aufgabe ist es:
 
 Anforderungen:
 
-- Klasse `SockStore`: Verwaltet den Bestand an Socken und stellt die folgenden Schnittstelle bereit
+- Klasse `SockStore`: Verwaltet den Bestand an Socken und stellt die folgenden Schnittstellen bereit
 - Methode `search(self, color: str) -> int`: Gibt die Anzahl der Socken einer bestimmten Farbe zurück
-- Methode `buy_sock(self, color)`: Kauft ein Paar Socken einer bestimmten Farbe und gibt die Farbe zurück
+- Methode `buy_sock(self, color)`: Kauft ein Paar Socken einer bestimmten Farbe und gibt die gekaufte Farbe zurück
 - Methode `add_sock(self, color: str, quantity: int)`: Fügt Socken einer bestimmten Farbe und Menge hinzu
 
 ---
@@ -127,7 +127,7 @@ Einer Ihrer Kunden, die Firma &#8222;Bloggify&#8220;, hat Sie beauftragt, die Sy
 Ihre Aufgabe ist es:
 
 1. System tests für die Blogging-Plattform zu entwickeln
-2. Schwachstellen mittels der System tests in der Blogging-Plattform zu finden, um diese dem Kunden zu melden
+2. Schwachstellen durch System tests in der Blogging-Plattform zu finden, um diese dem Kunden zu melden
 
 ---
 
