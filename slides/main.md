@@ -64,8 +64,8 @@ von Kevin Böhme und Rico Ukro
        - Use Mentimeter (or similar) opinion poll?
           Questions: Do you regularly test your software? Will you change your testing habits after this presentation?
 - [ ] Collect all inline quotes
-- [ ] Make example solutions for all exercises as files
-- [ ] Number the exercises
+- [x] Make example solutions for all exercises as files
+- [x] Number the exercises
 - [ ] Choose online platform to propagate for exercises
   - [onlinegdb.com](https://www.onlinegdb.com/)
   - ...

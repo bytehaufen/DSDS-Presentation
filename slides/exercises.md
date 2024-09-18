@@ -53,7 +53,7 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
 ---
 
 <h2 class="fixed-top">
-  Aufgabe x - Unit tests - Schaltjahr
+  Aufgabe 1 - Unit tests - Schaltjahr
 </h2>
 
 Ihr Kunde &#8222;Karl&#8220; hat für sein Produkt &#8222;Karl's Karlender&#8220;, bei Ihnen angefragt, die fehlende Implementierung für die Berechnung der Schaltjahre zu übernehmen:
@@ -68,7 +68,7 @@ _Negative Kalenderjahre sind nicht vorgesehen._
 ---
 
 <h2 class="fixed-top">
-  Aufgabe x - Unit tests - Schaltjahr
+  Aufgabe 1 - Unit tests - Schaltjahr
 </h2>
 
 Als kleine Starthilfe:
@@ -79,7 +79,7 @@ Als kleine Starthilfe:
 ---
 
 <h2 class="fixed-top">
-  Aufgabe x - Unit/Integration tests - Sockenversand
+  Aufgabe 2 - Unit/Integration tests - Sockenversand
 </h2>
 
 Für einen renommierten Online-Sockenversand soll die bisherige übelst veraltete und fehleranfällige MS-SQL-Server Implementierung durch ein modernes Python Backend ersetzt werden.
@@ -93,7 +93,7 @@ Ihre Aufgabe ist es:
 ---
 
 <h2 class="fixed-top">
-  Aufgabe x - Unit/Integration tests - Sockenversand
+  Aufgabe 2 - Unit/Integration tests - Sockenversand
 </h2>
 
 Anforderungen:
@@ -106,7 +106,7 @@ Anforderungen:
 ---
 
 <h2 class="fixed-top">
-  Aufgabe x - Unit/Integration tests - Sockenversand
+  Aufgabe 2 - Unit/Integration tests - Sockenversand
 </h2>
 
 Als kleine Starthilfe:
@@ -119,7 +119,7 @@ Als kleine Starthilfe:
 ---
   
 <h2 class="fixed-top">
-  Aufgabe x - System tests - Blog
+  Aufgabe 3 - System tests - Blog
 </h2>
 
 Einer Ihrer Kunden, die Firma &#8222;Bloggify&#8220;, hat Sie beauftragt, die System tests für ihre Blogging-Plattform zu entwickeln. Das Plattform-Backend ist mittels REST-API über [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts) erreichbar.
@@ -132,7 +132,7 @@ Ihre Aufgabe ist es:
 ---
 
 <h2 class="fixed-top">
-  Aufgabe x - System tests - Blog
+  Aufgabe 3 - System tests - Blog
 </h2>
 
 Guide für die API:
