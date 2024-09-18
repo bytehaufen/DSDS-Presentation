@@ -457,6 +457,24 @@ Phasen eines Penetration Tests:
 ---
 
 <h2 class="fixed-top">
+  Überblick: weitere Testverfahren
+</h2>
+
+- **Regressionstests**: Prüfen auf neue Fehler nach Code-Änderungen
+- **Load Tests**: Testen, ob das System unter Last stabil bleibt
+- **End-to-End Tests**: Prüfen des gesamten System-Workflows
+- **Smoke Tests**: Schnelltests nach einem Build zur Grundfunktionsprüfung
+- **Sanity Tests**: Prüfen neuer Änderungen auf Korrektheit
+- **Acceptance Tests (UAT)**: Überprüft Nutzeranforderungen
+- **Performance Tests**: Misst Reaktionszeit und Stabilität
+- **Usability Tests**: Überprüfung der Benutzerfreundlichkeit der Software
+- **Alpha/Beta Tests**: Frühe/späte Testphasen mit internen/externen Nutzern
+
+<!-- Regressionstests: Letztendlich CI/CD Automatisierte unit/integration/system test -->
+
+---
+
+<h2 class="fixed-top">
   Test Driven Development
 </h2>
 
