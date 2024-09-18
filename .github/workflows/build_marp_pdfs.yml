@@ -1,0 +1,67 @@
+name: Build Slides to PDF
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: Install Marp CLI
+        run: npm install -g @marp-team/marp-cli
+
+      - name: Convert Markdown to PDF
+        run: |
+          mkdir -p build/
+          for file in slides/*.md; do
+            marp "$file" --pdf --html --allow-local-files  --engine ./engine/engine.js -o "build/$(basename ${file%.md}).pdf"
+          done
+
+      - name: Stash PDFs before switching branches
+        run: |
+          git add -- ./build
+          git stash push -m "Stashing PDFs before branch switch"
+
+      - name: Checkout build branch
+        run: |
+          git fetch origin build:build
+          git checkout build
+
+      - name: Apply stashed PDFs to build branch
+        run: |
+          git stash apply || echo "Nothing to apply"
+
+      - name: Compare PDFs with existing ones
+        run: |
+          if diff -qr pdfs/ build/ > /dev/null; then
+            echo "No changes in PDFs. Exiting."
+            exit 0
+          fi
+
+      - name: Clean old artefacts
+        run: rm -rf pdfs/*
+
+      - name: Copy new artefacts
+        run: |
+          mkdir -p pdfs/
+          cp build/* pdfs/
+          git rm -rf build/
+
+      - name: Commit and push PDFs to build branch
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add pdfs/
+          git commit -m "github-bot: Build PDFs from Marp slides"
+          git push --force https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/bytehaufen/DSDS-Presentation.git HEAD:build
