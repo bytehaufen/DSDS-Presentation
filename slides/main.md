@@ -421,9 +421,6 @@ Phasen eines Penetration Tests:
 - Ziel: Entdecken von Schwachstellen durch ungewöhnliche oder unerwartete Eingaben.
 - Datenschutzrelevant: Aufdecken von Schwachstellen, die zu unbefugtem Zugriff auf personenbezogene Daten führen könnten.
 
-> "Fuzz testing provides random data to programs to discover security issues like buffer overflows or unexpected crashes."
-> **– Source: MITRE ATT&CK**
-
 <!-- z.B. Buffer Overflows, Abstürze oder Sicherheitslücken -->
 
 ---
