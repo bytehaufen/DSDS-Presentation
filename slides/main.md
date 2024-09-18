@@ -525,6 +525,15 @@ Phasen eines Penetration Tests:
   Mocking
 </h2>
 
+- Mocking: Simuliert das Verhalten von Objekten oder Komponenten
+- Ziel: Unabhängig von externen Abhängigkeiten testen
+- Verwendung:
+  - Imitiert APIs, Datenbanken oder andere Dienste
+  - Ermöglicht gezieltes Testen von isolierten Funktionen
+- Vorteile:
+  - Schneller und zuverlässiger als echte externe Ressourcen
+  - Erlaubt das Testen von Szenarien, die in der realen Umgebung schwer zu reproduzieren sind
+
 ---
 
 # Umsetzung von Tests
@@ -567,3 +576,4 @@ TODO: link zu den Beispielen reinwerkeln
 
 - [https://purplesec.us/learn/types-penetration-testing](https://purplesec.us/learn/types-penetration-testing/)
 - [https://www.code-intelligence.com/what-is-fuzz-testing](https://www.code-intelligence.com/what-is-fuzz-testing)
+- [https://stackoverflow.com/questions/2665812/what-is-mocking](https://stackoverflow.com/questions/2665812/what-is-mocking)
