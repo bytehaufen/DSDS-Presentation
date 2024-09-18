@@ -158,8 +158,6 @@ von Kevin Böhme und Rico Ukro
   - Absturz aufgrund eines Softwarefehlers
   - 264 Tote
 
-<br><span class="source">Quelle: [https://www.geeksforgeeks.org/software-testing-basics/)</span>
-
 ---
 
 <h2 class="fixed-top">
@@ -172,8 +170,6 @@ von Kevin Böhme und Rico Ukro
 - 2015: Bloomberg-Terminal Absturz in Londom
   - Softwarefehler legte 300.000 Händler auf den Finanzmärkten lahm
   - Britische Regierung musste den Verkauf von 3 Mrd. Pfund Staatsanleihen verschieben
-
-  <br><span class="source">Quelle: [https://www.geeksforgeeks.org/software-testing-basics/)</span>
 
 ---
 
@@ -271,6 +267,12 @@ else:
   - Geringer Aufwand für Testausführung erforderlich
   - Tests sollten zeitnah zur Umsetzung der Funktionalität bereitstehen
   - Ziel: Tests müssen mit dem ständigen Wandel Schritt halten
+
+---
+
+<div class="centered">
+  <img src="res/test_driven_development.png?" alt="Test driven development" style="width: 70%;"/>
+</div>
 
 <div class="centered source">
 
@@ -553,18 +555,6 @@ Erforderlich bei Tests von Software, die personenbezogene Daten verarbeitet:
 > _&#8222;Personenbezogene Daten müssen dem Zweck angemessen und erheblich sowie auf das für die Zwecke der Verarbeitung notwendige Maß beschränkt sein („Datenminimierung“);&#8220;_ <span class="source">Quelle: [Artikel 5 Abs. 1(c) DSGVO](https://dsgvo-gesetz.de/art-5-dsgvo/)</span>
 ---
 
-<div class="centered">
-  <img src="res/test_driven_development.png?" alt="Test driven development" style="width: 70%;"/>
-</div>
-
-<div class="centered source">
-
-  Quelle:
-  [https://blogs.zeiss.com/digital-innovation/de/test-driven-development/](https://blogs.zeiss.com/digital-innovation/de/test-driven-development/)
-</div>
-
----
-
 <h2 class="fixed-top">
   Link zu den Aufgaben
 </h2>
@@ -573,7 +563,8 @@ TODO: link zu den Beispielen reinwerkeln
 ---
 
 ## Quellen
-
+- [https://www.geeksforgeeks.org/software-testing-basics/](https://www.geeksforgeeks.org/software-testing-basics/)
+- [https://blogs.zeiss.com/digital-innovation/de/test-driven-development/](https://blogs.zeiss.com/digital-innovation/de/test-driven-development/)
 - [https://purplesec.us/learn/types-penetration-testing](https://purplesec.us/learn/types-penetration-testing/)
 - [https://www.code-intelligence.com/what-is-fuzz-testing](https://www.code-intelligence.com/what-is-fuzz-testing)
 - [https://stackoverflow.com/questions/2665812/what-is-mocking](https://stackoverflow.com/questions/2665812/what-is-mocking)
