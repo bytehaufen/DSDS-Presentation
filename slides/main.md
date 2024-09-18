@@ -389,14 +389,14 @@ else:
 
 Arten von Fuzz-Tests:
 
-- **Dumb Fuzzers**: Unbewusst der Eingabestruktur, generieren zufällige Eingaben
-- **Smart Fuzzers**: Bewusst der Eingabestruktur, erzeugen gezielte Eingaben
+- **Dumb Fuzzers**: Generieren zufällige Eingaben
+- **Smart Fuzzers**: Erzeugen gezielte Eingaben
 - **Mutationsbasiert**: Verändern bestehende Eingaben in semivalide Varianten
-- **Generationsbasiert**: Erzeugen Eingaben neu basierend auf bekannten Strukturen
-- **Black-Box**: Kein Wissen über die Programminterne Struktur, zufällige Eingaben
-- **White-Box**: Kennt die Programmstruktur, erstellt gezielte Eingaben
-- **Gray-Box**: Teilweise Kenntnis der Struktur, Mischung aus Black- und White-Box
-- **Abdeckungsgesteuert**: Verfolgt die Codeabdeckung und optimiert Mutationen, um maximale Abdeckung zu erzielen
+- **Generationsbasiert**: Erzeugt eingaben aus bekannten Strukturen
+- **Black-Box**: Kein Wissen über die Programminterne Struktur
+- **White-Box**: Kennt die Programmstruktur
+- **Gray-Box**: Teilweise Kenntnis der Struktur
+- **Abdeckungsgesteuert**: Optimiert Mutationen für maximale Codeabdeckung
 
 <!-- Codeabdeckung: Misst, wie viel Prozent des Programmcodes durch Tests ausgeführt wird -->
 
