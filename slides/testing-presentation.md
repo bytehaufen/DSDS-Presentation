@@ -599,6 +599,12 @@ Zum ausprobieren z.B. auf: [onlinegdb.com](https://www.onlinegdb.com/)
 
 ---
 
+<h1 style="text-align: center; position: absolute; top: 40%; width: 100%; right: 0%">
+  Ehmm.. Noch Fragen oder Anmerkungen? 
+</h1>
+
+---
+
 <h2 class="fixed-top">
   Link zu den Aufgaben
 </h2>
