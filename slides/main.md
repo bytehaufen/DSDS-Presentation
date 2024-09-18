@@ -558,7 +558,7 @@ Erforderlich bei Tests von Software, die personenbezogene Daten verarbeitet:
 <h2 class="fixed-top">
   Link zu den Aufgaben
 </h2>
-TODO: link zu den Beispielen reinwerkeln
+<a href="exercises.md">Gehe zu den Aufgaben</a>
 
 ---
 
