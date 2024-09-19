@@ -111,7 +111,6 @@ von Kevin Böhme und Rico Ukro
   <div style="flex: 1; padding-left: 10px;">
     <ul>
       <li>Umsetzung von Tests</li>
-      <li>TODO: Add lifedemo <a href="https://www.onlinegdb.com/">onlinegdb.com</a></li>
       <li>Testverfahren für Datensicherheit im Detail</li>
       <li>Datenschutz: Besonderheiten beim Testen
         <!-- TODO: idea: No real data, generated data, eventually from a public database for this purpose -->
