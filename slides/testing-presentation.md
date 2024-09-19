@@ -243,17 +243,9 @@ else:
 
 ---
 
-<h2 class="fixed-top">
+<h1 class="centered">
  Grundlagen von Tests und Testverfahren
-</h2>
-
-- Notwendig um Fehler in Software zu finden
-- Verschiedene Testarten decken unterschiedliche Aspekte ab:
-  - Funktionalität
-  - Integration
-  - Sicherheit
-- Verbindung zum Datenschutz:
-  - Sicherstellen, dass keine personenbezogenen Daten kompromittiert werden
+</h1>
 
 ---
 
@@ -293,7 +285,7 @@ else:
   - System Tests
   - Fuzzing
 
-  <!-- Unit Tests:
+<!-- Unit Tests:
      - Testen einzelne, isolierte Komponenten
      - Sicherstellen der korrekten Funktion von Funktionen/Methoden -->
 
