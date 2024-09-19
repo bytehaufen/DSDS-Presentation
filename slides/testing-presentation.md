@@ -66,6 +66,7 @@ von Kevin Böhme und Rico Ukro
 
 # TODO
 
+- [ ] Flatten `Agenda`; make Details as comments -> @rico
 - [x] Make headings academic
 - [ ] Update Agenda
 - [ ] Add or remove picture captions
