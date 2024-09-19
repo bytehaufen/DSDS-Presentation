@@ -270,8 +270,7 @@ else:
 
 <div class="centered source">
 
-  Quelle:
-  [https://blogs.zeiss.com/digital-innovation/de/test-driven-development/](https://blogs.zeiss.com/digital-innovation/de/test-driven-development/)
+  Quelle: [https://blogs.zeiss.com/digital-innovation/de/test-driven-development/](https://blogs.zeiss.com/digital-innovation/de/test-driven-development/)
 </div>
 
 ---
