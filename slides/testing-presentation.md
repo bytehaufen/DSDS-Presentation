@@ -66,7 +66,8 @@ von Kevin Böhme und Rico Ukro
 
 # TODO
 
-- [ ] Make headings academic
+- [x] Make headings academic
+- [ ] Update Agenda
 - [ ] Add or remove picture captions
 - [ ] Reorder slides
 - [ ] Make this stuff beautiful
@@ -269,11 +270,11 @@ else:
 
 ## Übersicht über Testverfahren
 
-  - Unit Tests
-  - Integration Tests
-  - Penetration Tests
-  - System Tests
-  - Fuzzing
+  - Unit-Tests
+  - Integrationstests
+  - Penetrationstests
+  - Systemtests
+  - Fuzz-Tests - Fuzzing
 
 <!-- Unit Tests:
      - Testen einzelne, isolierte Komponenten
@@ -295,10 +296,9 @@ else:
      - Automatisierte Eingaben zufällig generieren
      - Finden von Schwachstellen wie Abstürzen oder Sicherheitslücken -->
 
-
 ---
 
-## Unit Tests
+## Unit-Tests
 
 - Testen einzelner Softwarekomponenten
 - Ziel: Sicherstellen, dass jede Komponente isoliert korrekt funktioniert
