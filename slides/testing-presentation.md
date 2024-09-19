@@ -34,7 +34,7 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
   /* Fix all h2 elements to top */
   h2 {
     position: absolute;
-    top: 10%;
+    top: 78.5px; /* 78.5px is the default theme padding of all slides */
   }
   /* Centered text */
   .centered {
