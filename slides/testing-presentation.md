@@ -27,6 +27,10 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
       color: #bbb; /* Lighter color for line numbers */
       font-weight: lighter; /* Lighter font weight for line numbers */
     }
+  /* Center all h1 elements */
+  h1 {
+    text-align: center;
+  }
   /* Centered text */
   .centered {
     text-align: center;
@@ -39,6 +43,12 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
   /* For sources of citations */
   .source {
     font-size: 12px;
+  }
+</style>
+
+<style scoped>
+  h1 {
+    text-align: left;
   }
 </style>
 
@@ -78,9 +88,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-<h1 class="centered">
-  Agenda
-</h1>
+#  Agenda
 
 <div style="display: flex; justify-content: space-between;">
 
@@ -128,9 +136,7 @@ von Kevin Böhme und Rico Ukro
  ul { list-style-type: none; }
 </style>
 
-<h1 class="centered">
-  Was sind Tests?
-</h1>
+#  Was sind Tests?
 
 * > _&#8222;Software testing is the process of evaluating and verifying that a software product or application does what it’s supposed to do. The benefits of good testing include preventing bugs and improving performance.&#8220;_ <br><span class="source">Quelle: [https://www.ibm.com/topics/software-testing](https://www.ibm.com/topics/software-testing)</span>
 
@@ -141,9 +147,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-<h1 class="centered">
-  Warum Tests?
-</h1>
+# Warum Tests?
 
 ---
 
@@ -243,9 +247,7 @@ else:
 
 ---
 
-<h1 class="centered">
- Grundlagen von Tests und Testverfahren
-</h1>
+# Grundlagen von Tests und Testverfahren
 
 ---
 
@@ -530,9 +532,7 @@ Phasen eines Penetration Tests:
 
 ---
 
-<h1 class="centered">
-  Umsetzung von Tests
-</h1>
+#  Umsetzung von Tests
 
 ---
 
