@@ -96,6 +96,11 @@ von Kevin Böhme und Rico Ukro
     <ul>
       <li>Was sind Tests?</li>
       <li>Warum Tests?</li>
+      <ul>
+        <li>Negativ Beispiele</li>
+        <li>Gesetzliche Anforderungen (DSGVO)</li>
+        <li>Aus technischer Sicht</li>
+      </ul>
     </ul>
   </div>
 
@@ -104,26 +109,27 @@ von Kevin Böhme und Rico Ukro
       <li>Grundlagen von Tests und Testverfahren
         <ul>
           <li>Test Driven Development (TDD)</li>
+          <li>Überblick über Testarten</li>
           <li>Unit Tests</li>
           <li>Integration Tests</li>
           <li>System Tests</li>
           <li>Fuzzing</li>
           <li>Penetration Tests</li>
-          <li>Weiterführende Testverfahren</li>
+          <li>Überblick: weitere Testverfahren</li>
+          <li>Mocking</li>
         </ul>
       </li>
-      <li>Mocking</li>
     </ul>
   </div>
 
   <div style="flex: 1; padding-left: 10px;">
     <ul>
       <li>Umsetzung von Tests</li>
-      <li>Testverfahren für Datensicherheit im Detail</li>
-      <li>Datenschutz: Besonderheiten beim Testen
-        <!-- TODO: idea: No real data, generated data, eventually from a public database for this purpose -->
-        <!-- TODO: add a setion: real implementation (framework) with example -->
-      </li>
+      <ul>
+        <li>Testdaten und Datenschutz</li>
+        <li>Und wie erstelle Tests?</li>
+      </ul>
+      <li>Link zu den Aufgaben</li>
       <li>Quellen</li>
     </ul>
   </div>
