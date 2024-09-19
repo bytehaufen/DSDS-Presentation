@@ -69,11 +69,11 @@ von Kevin Böhme und Rico Ukro
 - [x] Choose online platform to propagate for exercises
   - [onlinegdb.com](https://www.onlinegdb.com/)
   - ...
-- [ ] Add offset for slide content, because of `fixed-top` heading
+- [ ] Maybe, Add offset for slide content, because of `fixed-top` heading
 - [x] Add example exercise link in the last slide
   - Difficult - match the presentation with markdown or the generated pdf?
-- [ ] Add this topic: [Role of Test Automation in a CI/CD Pipeline(https://dancerscode.com/posts/role-of-test-automation-in-a-ci-cd-pipeline/)]?
-- [ ] Add this topic: [Test Benefit Analysis](https://dancerscode.com/posts/test-benefit-analysis/)?
+- [ ] Vote: Add this topic: [Role of Test Automation in a CI/CD Pipeline(https://dancerscode.com/posts/role-of-test-automation-in-a-ci-cd-pipeline/)]?
+- [ ] Vote: Add this topic: [Test Benefit Analysis](https://dancerscode.com/posts/test-benefit-analysis/)?
 
 ---
 
