@@ -96,7 +96,6 @@ von Kevin Böhme und Rico Ukro
     <ul>
       <li>Was sind Tests?</li>
       <li>Warum Tests?</li>
-      <li>Test Driven Development (TDD)</li>
     </ul>
   </div>
 
@@ -104,6 +103,7 @@ von Kevin Böhme und Rico Ukro
     <ul>
       <li>Grundlagen von Tests und Testverfahren
         <ul>
+          <li>Test Driven Development (TDD)</li>
           <li>Unit Tests</li>
           <li>Integration Tests</li>
           <li>System Tests</li>
