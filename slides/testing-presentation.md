@@ -74,6 +74,7 @@ von Kevin Böhme und Rico Ukro
   - Difficult - match the presentation with markdown or the generated pdf?
 - [ ] Vote: Add this topic: [Role of Test Automation in a CI/CD Pipeline(https://dancerscode.com/posts/role-of-test-automation-in-a-ci-cd-pipeline/)]?
 - [ ] Vote: Add this topic: [Test Benefit Analysis](https://dancerscode.com/posts/test-benefit-analysis/)?
+- [ ] Discuss: For the test example, first show the test, then the implementation -> Better match with TDD
 
 ---
 
