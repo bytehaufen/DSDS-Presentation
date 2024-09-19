@@ -40,11 +40,6 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
   .centered {
     text-align: center;
   }
-  /* Fixed top */
-  .fixed-top {
-    position: absolute;
-    top: 10%;
-  }
   /* For sources of citations */
   .source {
     font-size: 12px;
@@ -84,7 +79,7 @@ von Kevin Böhme und Rico Ukro
 - [x] Choose online platform to propagate for exercises
   - [onlinegdb.com](https://www.onlinegdb.com/)
   - ...
-- [ ] Maybe, Add offset for slide content, because of `fixed-top` heading
+- [ ] Maybe, Add offset for slide content, because of `h2` heading
 - [x] Add example exercise link in the last slide
   - Difficult - match the presentation with markdown or the generated pdf?
 - [ ] Vote: Add this topic: [Role of Test Automation in a CI/CD Pipeline(https://dancerscode.com/posts/role-of-test-automation-in-a-ci-cd-pipeline/)]?
@@ -550,7 +545,7 @@ Zum ausprobieren z.B. auf: [onlinegdb.com](https://www.onlinegdb.com/)
 
 ---
 
-<h2 class="fixed-top" style="text-align: center; width: 100%;">
+<h2 style="text-align: center; width: 100%;">
   Link zu den Aufgaben
 </h2>
 <a href="https://github.com/bytehaufen/DSDS-Presentation/blob/build/pdfs/testing-exercises.pdf" style="text-align: center; display: block;">Gehe zu den Aufgaben</a>
