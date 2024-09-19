@@ -31,6 +31,11 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
   h1 {
     text-align: center;
   }
+  /* Fix all h2 elements to top */
+  h2 {
+    position: absolute;
+    top: 10%;
+  }
   /* Centered text */
   .centered {
     text-align: center;
@@ -151,9 +156,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-<h2 class="fixed-top">
-  Negativ Beispiele
-</h2>
+##  Negativ Beispiele
 
 - 1985: Kanadische Strahlentherapie Therac-25
   - Softwarefehler führte zu tödlicher Strahlendosis
@@ -165,9 +168,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-<h2 class="fixed-top">
-  Negativ Beispiele
-</h2>
+## Negativ Beispiele
 
 - 1996: US-Bank Softwarefehler
   - 823 Kunden fälschlicherweise 920 Millionen US-Dollar gutgeschrieben
@@ -178,9 +179,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-<h2 class="fixed-top">
-  Gesetzliche Anforderungen (DSGVO)
-</h2>
+## Gesetzliche Anforderungen (DSGVO)
 
 - Geeignete technische und organisatorische Maßnahmen
 - Schutz personenbezogener Daten durch Tests
@@ -188,9 +187,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-<h2 class="fixed-top">
-   Artikel 5 – Grundsätze der Verarbeitung
-</h2>
+## Artikel 5 – Grundsätze der Verarbeitung
 
 - Angemessene Sicherheit sicherstellen
 - Schutz vor unbefugter Verarbeitung und Datenverlust
@@ -199,9 +196,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-<h2 class="fixed-top">
-  Artikel 25 – Datenschutz durch Technikgestaltung
-</h2>
+## Artikel 25 – Datenschutz durch Technikgestaltung
 
 - **Privacy by Design**: Datenschutz in der Entwicklung berücksichtigen
 - Systeme vor Einführung testen
@@ -210,9 +205,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-<h2 class="fixed-top">
-  Artikel 32 – Sicherheit der Verarbeitung
-</h2>
+## Artikel 32 – Sicherheit der Verarbeitung
 
 - Regelmäßige Tests vorgeschrieben
 - Vertraulichkeit, Integrität und Verfügbarkeit sicherstellen
@@ -222,9 +215,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-<h2 class="fixed-top">
-  Aus technischer Sicht am Beispiel
-</h2>
+## Aus technischer Sicht am Beispiel
 
 ```python
 response = requests.get("https://api.example.com/data")
@@ -251,9 +242,7 @@ else:
 
 ---
 
-<h2 class="fixed-top">
-  Test Driven Development (TDD)
-</h2>
+## Test Driven Development (TDD)
 
 - Wasserfallmodell: Testen erst am Projektende vorgesehen
 - V-Modell: Zeitlich klar definierte Abfolge der Testphasen
@@ -276,9 +265,7 @@ else:
 
 ---
 
-<h2 class="fixed-top">
- Überblick über Testarten
-</h2>
+## Überblick über Testarten
 
   - Unit Tests
   - Integration Tests
@@ -309,9 +296,7 @@ else:
 
 ---
 
-<h2 class="fixed-top">
-  Unit Tests
-</h2>
+## Unit Tests
 
 - Testen einzelner Softwarekomponenten
 - Ziel: Sicherstellen, dass jede Komponente isoliert korrekt funktioniert
@@ -321,9 +306,7 @@ else:
 
 ---
 
-<h2 class="fixed-top">
-  Unit Tests
-</h2>
+## Unit Tests
 
 <div class="centered">
   <img src="res/unit-test-diagram.png?" alt="Unit Test Diagramm" style="width: 70%;"/>
@@ -336,9 +319,7 @@ else:
 
 ---
 
-<h2 class="fixed-top">
-  Integration Tests
-</h2>
+## Integration Tests
 
 - Testen das Zusammenspiel mehrerer Komponenten
 - Ziel: Sicherstellen, dass die Schnittstellen und Datenflüsse korrekt funktionieren
@@ -350,9 +331,7 @@ else:
 
 ---
 
-<h2 class="fixed-top">
-  Integration Tests
-</h2>
+## Integration Tests
 
 <div class="centered">
   <img src="res/integration-test-diagram.png?" alt="Integration Test Diagramm" style="width: 70%;"/>
@@ -365,9 +344,7 @@ else:
 
 ---
 
-<h2 class="fixed-top">
-  System Tests
-</h2>
+## System Tests
 
 
 - Testen das gesamte System als Ganzes
@@ -378,9 +355,7 @@ else:
 
 ---
 
-<h2 class="fixed-top">
-  System Tests
-</h2>
+## System Tests
 
 <div class="centered">
   <img src="res/system-test-diagram.png?" alt="System Test Diagramm" style="width: 60%;"/>
@@ -399,9 +374,7 @@ else:
 
 ---
 
-<h2 class="fixed-top">
-  Fuzz Tests - Fuzzing
-</h2>
+## Fuzz Tests - Fuzzing
 
 - Testmethode, bei der zufällige Daten an das System gesendet werden
 - Ziel: Entdecken von Schwachstellen durch ungewöhnliche oder unerwartete Eingaben.
@@ -411,9 +384,7 @@ else:
 
 ---
 
-<h2 class="fixed-top">
-  Fuzz Tests - Fuzzing
-</h2>
+## Fuzz Tests - Fuzzing
 
 <div class="centered">
   <img src="res/SAST - InstrumentedFuzzing.webp?" alt="Static Analysis and Code Fuzzing in the V-model" style="width: 60%;"/>
@@ -426,9 +397,7 @@ else:
 
 ---
 
-<h2 class="fixed-top">
-  Fuzz Tests - Fuzzing
-</h2>
+## Fuzz Tests - Fuzzing
 
 Arten von Fuzz-Tests:
 
@@ -448,9 +417,7 @@ Arten von Fuzz-Tests:
 
 ---
 
-<h2 class="fixed-top">
-  Penetration Tests
-</h2>
+## Penetration Tests
 
 - Simulierte Angriffe auf ein System, um Sicherheitslücken zu identifizieren
 - Auch bekannt als _ethical hacking_
@@ -463,9 +430,7 @@ Arten von Fuzz-Tests:
 
 ---
 
-<h2 class="fixed-top">
-  Penetration Tests
-</h2>
+## Penetration Tests
 
 Unterschiedliche Angriffsvektoren:
 - Network
@@ -485,9 +450,7 @@ Unterschiedliche Angriffsvektoren:
 ---
 
 
-<h2 class="fixed-top">
-  Penetration Tests
-</h2>
+## Penetration Tests
 
 Phasen eines Penetration Tests:
 
@@ -499,9 +462,7 @@ Phasen eines Penetration Tests:
 
 ---
 
-<h2 class="fixed-top">
-  Überblick: weitere Testverfahren
-</h2>
+## Überblick: weitere Testverfahren
 
 - **Regressionstests**: Prüfen auf neue Fehler nach Code-Änderungen
 - **Load Tests**: Testen, ob das System unter Last stabil bleibt
@@ -517,9 +478,7 @@ Phasen eines Penetration Tests:
 
 ---
 
-<h2 class="fixed-top">
-  Mocking
-</h2>
+## Mocking
 
 - Mocking: Simuliert das Verhalten von Objekten oder Komponenten
 - Ziel: Unabhängig von externen Abhängigkeiten testen
@@ -536,9 +495,7 @@ Phasen eines Penetration Tests:
 
 ---
 
-<h2 class="fixed-top">
-  Testdaten und Datenschutz
-</h2>
+## Testdaten und Datenschutz
 
 Erforderlich bei Tests von Software, die personenbezogene Daten verarbeitet:
 
@@ -549,9 +506,7 @@ Erforderlich bei Tests von Software, die personenbezogene Daten verarbeitet:
 > _&#8222;Personenbezogene Daten müssen dem Zweck angemessen und erheblich sowie auf das für die Zwecke der Verarbeitung notwendige Maß beschränkt sein („Datenminimierung“);&#8220;_ <span class="source">Quelle: [Artikel 5 Abs. 1(c) DSGVO](https://dsgvo-gesetz.de/art-5-dsgvo/)</span>
 ---
 
-<h2 class="fixed-top">
-  Und wie erstelle ich Tests?
-</h2>
+## Und wie erstelle ich Tests?
 
 ##### Beispiel: Addierer
 
@@ -565,9 +520,7 @@ def add(a, b):
 
 ---
 
-<h2 class="fixed-top">
-  Und wie erstelle ich Tests?
-</h2>
+## Und wie erstelle ich Tests?
 
 ##### Dazugehöriger Test
 
