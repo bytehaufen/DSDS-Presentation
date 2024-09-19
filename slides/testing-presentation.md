@@ -227,7 +227,7 @@ else:
     # Handle response
 ```
 
-<h3> Warum ist Testing in diesem Kontext wichtig?</h3>
+### Warum ist Testing in diesem Kontext wichtig?
 
 ---
 
