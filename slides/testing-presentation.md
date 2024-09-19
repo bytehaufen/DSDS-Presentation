@@ -66,6 +66,7 @@ von Kevin Böhme und Rico Ukro
 
 # TODO
 
+- [ ] Make headings academic
 - [ ] Add or remove picture captions
 - [ ] Reorder slides
 - [ ] Make this stuff beautiful
