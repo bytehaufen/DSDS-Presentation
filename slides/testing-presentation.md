@@ -237,7 +237,7 @@ else:
 
 - Fehlererkennung: API antwortet korrekt, Fehler werden richtig gehandhabt
 - Fehlertoleranz: Anwendung reagiert robust auf verschiedene Antwortcodes und Netzwerkausfälle
-- Sicherheit: Sicherstellen, dass keine sensiblen Daten kompremittiert werden
+- Sicherheit: Sicherstellen, dass keine sensiblen Daten kompromittiert werden
 - Zuverlässigkeit: API-Abfrage funktioniert konsistent, auch bei hoher Last oder langsamen Netzwerken
 - Validierung der Logik: Richtig implementierte Logik für verschiedene Statuscodes und Inhalte
 
