@@ -143,7 +143,7 @@ von Kevin Böhme und Rico Ukro
  ul { list-style-type: none; }
 </style>
 
-#  Was sind Tests?
+#  Begriffsklärung und Bedeutung von Softwaretests
 
 * > _&#8222;Software testing is the process of evaluating and verifying that a software product or application does what it’s supposed to do. The benefits of good testing include preventing bugs and improving performance.&#8220;_ <br><span class="source">Quelle: [https://www.ibm.com/topics/software-testing](https://www.ibm.com/topics/software-testing)</span>
 
@@ -154,11 +154,11 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-# Warum Tests?
+# Zweck und Notwendigkeit von Softwaretests
 
 ---
 
-##  Negativ Beispiele
+##  Fallstudien: Historische Beispiele
 
 - 1985: Kanadische Strahlentherapie Therac-25
   - Softwarefehler führte zu tödlicher Strahlendosis
@@ -170,7 +170,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-## Negativ Beispiele
+## Fallstudien: Historische Beispiele
 
 - 1996: US-Bank Softwarefehler
   - 823 Kunden fälschlicherweise 920 Millionen US-Dollar gutgeschrieben
@@ -181,7 +181,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-## Gesetzliche Anforderungen (DSGVO)
+## Gesetzliche Anforderungen an Softwaretests (DSGVO)
 
 - Geeignete technische und organisatorische Maßnahmen
 - Schutz personenbezogener Daten durch Tests
@@ -189,7 +189,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-## Artikel 5 – Grundsätze der Verarbeitung
+### Artikel 5 – Grundsätze der Verarbeitung
 
 - Angemessene Sicherheit sicherstellen
 - Schutz vor unbefugter Verarbeitung und Datenverlust
@@ -198,7 +198,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-## Artikel 25 – Datenschutz durch Technikgestaltung
+### Artikel 25 – Datenschutz durch Technikgestaltung
 
 - **Privacy by Design**: Datenschutz in der Entwicklung berücksichtigen
 - Systeme vor Einführung testen
@@ -207,7 +207,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-## Artikel 32 – Sicherheit der Verarbeitung
+### Artikel 32 – Sicherheit der Verarbeitung
 
 - Regelmäßige Tests vorgeschrieben
 - Vertraulichkeit, Integrität und Verfügbarkeit sicherstellen
@@ -217,7 +217,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-## Aus technischer Sicht am Beispiel
+### Aus technischer Sicht am Beispiel
 
 ```python
 response = requests.get("https://api.example.com/data")
@@ -240,11 +240,11 @@ else:
 
 ---
 
-# Grundlagen von Tests und Testverfahren
+# Grundlagen der Testmethoden und -verfahren
 
 ---
 
-## Test Driven Development (TDD)
+## Testgetriebene Entwicklung (TDD - Test Driven Development)
 
 - Wasserfallmodell: Testen erst am Projektende vorgesehen
 - V-Modell: Zeitlich klar definierte Abfolge der Testphasen
@@ -267,7 +267,7 @@ else:
 
 ---
 
-## Überblick über Testarten
+## Übersicht über Testverfahren
 
   - Unit Tests
   - Integration Tests
@@ -308,7 +308,7 @@ else:
 
 ---
 
-## Unit Tests
+## Unit-Tests
 
 <div class="centered">
   <img src="res/unit-test-diagram.png?" alt="Unit Test Diagramm" style="width: 70%;"/>
@@ -321,7 +321,7 @@ else:
 
 ---
 
-## Integration Tests
+## Integrationstests
 
 - Testen das Zusammenspiel mehrerer Komponenten
 - Ziel: Sicherstellen, dass die Schnittstellen und Datenflüsse korrekt funktionieren
@@ -333,7 +333,7 @@ else:
 
 ---
 
-## Integration Tests
+## Integrationstests
 
 <div class="centered">
   <img src="res/integration-test-diagram.png?" alt="Integration Test Diagramm" style="width: 70%;"/>
@@ -346,7 +346,7 @@ else:
 
 ---
 
-## System Tests
+## Systemtests
 
 
 - Testen das gesamte System als Ganzes
@@ -357,7 +357,7 @@ else:
 
 ---
 
-## System Tests
+## Systemtests
 
 <div class="centered">
   <img src="res/system-test-diagram.png?" alt="System Test Diagramm" style="width: 60%;"/>
@@ -376,7 +376,7 @@ else:
 
 ---
 
-## Fuzz Tests - Fuzzing
+## Fuzz-Tests - Fuzzing
 
 - Testmethode, bei der zufällige Daten an das System gesendet werden
 - Ziel: Entdecken von Schwachstellen durch ungewöhnliche oder unerwartete Eingaben.
@@ -386,7 +386,7 @@ else:
 
 ---
 
-## Fuzz Tests - Fuzzing
+## Fuzz-Tests - Fuzzing
 
 <div class="centered">
   <img src="res/SAST - InstrumentedFuzzing.webp?" alt="Static Analysis and Code Fuzzing in the V-model" style="width: 60%;"/>
@@ -399,7 +399,7 @@ else:
 
 ---
 
-## Fuzz Tests - Fuzzing
+## Fuzz-Tests - Fuzzing
 
 Arten von Fuzz-Tests:
 
@@ -419,7 +419,7 @@ Arten von Fuzz-Tests:
 
 ---
 
-## Penetration Tests
+## Penetrationstests
 
 - Simulierte Angriffe auf ein System, um Sicherheitslücken zu identifizieren
 - Auch bekannt als _ethical hacking_
@@ -432,7 +432,7 @@ Arten von Fuzz-Tests:
 
 ---
 
-## Penetration Tests
+## Penetrationstests
 
 Unterschiedliche Angriffsvektoren:
 - Network
@@ -451,8 +451,7 @@ Unterschiedliche Angriffsvektoren:
 
 ---
 
-
-## Penetration Tests
+## Penetrationstests
 
 Phasen eines Penetration Tests:
 
@@ -464,7 +463,7 @@ Phasen eines Penetration Tests:
 
 ---
 
-## Überblick: weitere Testverfahren
+## Weitere Testverfahren im Überblick
 
 - **Regressionstests**: Prüfen auf neue Fehler nach Code-Änderungen
 - **Load Tests**: Testen, ob das System unter Last stabil bleibt
@@ -480,7 +479,7 @@ Phasen eines Penetration Tests:
 
 ---
 
-## Mocking
+## Mocking - Simulation externer Abhängigkeiten
 
 - Mocking: Simuliert das Verhalten von Objekten oder Komponenten
 - Ziel: Unabhängig von externen Abhängigkeiten testen
@@ -493,11 +492,11 @@ Phasen eines Penetration Tests:
 
 ---
 
-#  Umsetzung von Tests
+# Durchführung von Softwaretests
 
 ---
 
-## Testdaten und Datenschutz
+## Testdatenmanagement und Datenschutzkonformität
 
 Erforderlich bei Tests von Software, die personenbezogene Daten verarbeitet:
 
@@ -508,7 +507,7 @@ Erforderlich bei Tests von Software, die personenbezogene Daten verarbeitet:
 > _&#8222;Personenbezogene Daten müssen dem Zweck angemessen und erheblich sowie auf das für die Zwecke der Verarbeitung notwendige Maß beschränkt sein („Datenminimierung“);&#8220;_ <span class="source">Quelle: [Artikel 5 Abs. 1(c) DSGVO](https://dsgvo-gesetz.de/art-5-dsgvo/)</span>
 ---
 
-## Und wie erstelle ich Tests?
+## Entwicklung und Implementierung von Tests
 
 ##### Beispiel: Addierer
 
@@ -522,7 +521,7 @@ def add(a, b):
 
 ---
 
-## Und wie erstelle ich Tests?
+## Entwicklung und Implementierung von Tests
 
 ##### Dazugehöriger Test
 
@@ -547,13 +546,13 @@ Zum ausprobieren z.B. auf: [onlinegdb.com](https://www.onlinegdb.com/)
 ---
 
 <h1 style="text-align: center; position: absolute; top: 40%; width: 100%; right: 0%">
-  Ehmm.. Noch Fragen oder Anmerkungen? 
+  Offene Fragen und Diskussion
 </h1>
 
 ---
 
 <h2 style="text-align: center; width: 100%;">
-  Link zu den Aufgaben
+  Praktische Übungen zur Implementierung von Tests
 </h2>
 <a href="https://github.com/bytehaufen/DSDS-Presentation/blob/build/pdfs/testing-exercises.pdf" style="text-align: center; display: block;">Gehe zu den Aufgaben</a>
 
