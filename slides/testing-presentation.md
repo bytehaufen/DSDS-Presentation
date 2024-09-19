@@ -531,7 +531,9 @@ Phasen eines Penetration Tests:
 
 ---
 
-# Umsetzung von Tests
+<h1 class="centered">
+  Umsetzung von Tests
+</h1>
 
 ---
 
