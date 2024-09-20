@@ -231,11 +231,11 @@ else:
 
 ## Übersicht über Testverfahren
 
-  - Unit-Tests
-  - Integrationstests
-  - Penetrationstests
-  - Systemtests
-  - Fuzz-Tests - Fuzzing
+- Unit-Tests
+- Integrationstests
+- Penetrationstests
+- Systemtests
+- Fuzz-Tests - Fuzzing
 
 <!-- Unit Tests:
      - Testen einzelne, isolierte Komponenten
