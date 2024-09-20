@@ -64,30 +64,38 @@ von Kevin Böhme und Rico Ukro
 
 <!--TODO: Delete this slide-->
 
+<style scoped>
+li {
+  margin: 1px 0;
+  line-height: 1;
+  font-size: 18px;
+}
+</style>
 # TODO
 
 - [x] Flatten `Agenda`; make Details as comments -> @rico
 - [x] Make headings academic
 - [ ] Update Agenda
+- [ ] Check Abbreviations
 - [ ] Add or remove picture captions
 - [ ] Reorder slides
 - [ ] Make this stuff beautiful
-- [ ] Check Abbreviations
-- [x] Discuss: \
-       - Use Mentimeter (or similar) opinion poll? - **NO, thats totally bullshit**
-          Questions: Do you regularly test your software? Will you change your testing habits after this presentation?
-- [ ] Collect all inline quotes
+- [x] Discuss:
+  - Use Mentimeter (or similar) opinion poll? -> **NO, thats totally bullshit**
+- [x] Collect all inline quotes 
+  - -> no, "Es bleibt alles da wo es ist!!!!111!!!"
 - [x] Make example solutions for all exercises as files
 - [x] Number the exercises
 - [x] Choose online platform to propagate for exercises
   - [onlinegdb.com](https://www.onlinegdb.com/)
   - ...
-- [ ] Maybe, Add offset for slide content, because of `h2` heading
+- [x] Maybe, Add offset for slide content, because of `h2` heading 
+   - -> Reject, to much effort
 - [x] Add example exercise link in the last slide
-  - Difficult - match the presentation with markdown or the generated pdf?
 - [ ] Vote: Add this topic: [Role of Test Automation in a CI/CD Pipeline(https://dancerscode.com/posts/role-of-test-automation-in-a-ci-cd-pipeline/)]?
 - [ ] Vote: Add this topic: [Test Benefit Analysis](https://dancerscode.com/posts/test-benefit-analysis/)?
-- [ ] Discuss: For the test example, first show the test, then the implementation -> Better match with TDD
+- [x] Discuss: For the test example, first show the test, then the implementation -> Better match with TDD
+  - -> Added as comment for explanation
 
 ---
 
@@ -479,6 +487,13 @@ def add(a, b):
     # Addiert zwei Zahlen
     return a + b
 ```
+
+<!--
+Richtige Reihenfolge:
+- Schnittstelle definieren -> Hier: Funkt. Signatur
+- Tests schreiben
+- Funktion implementieren
+-->
 
 ---
 
