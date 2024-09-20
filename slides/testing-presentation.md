@@ -73,8 +73,8 @@ von Kevin Böhme und Rico Ukro
 - [ ] Reorder slides
 - [ ] Make this stuff beautiful
 - [ ] Check Abbreviations
-- [ ] Discuss: \
-       - Use Mentimeter (or similar) opinion poll?
+- [x] Discuss: \
+       - Use Mentimeter (or similar) opinion poll? - **NO, thats totally bullshit**
           Questions: Do you regularly test your software? Will you change your testing habits after this presentation?
 - [ ] Collect all inline quotes
 - [x] Make example solutions for all exercises as files
@@ -106,9 +106,13 @@ TODO: Collect all h2, subheadings as comments
 * > _&#8222;Software testing is the process of evaluating and verifying that a software product or application does what it’s supposed to do. The benefits of good testing include preventing bugs and improving performance.&#8220;_ <br><span class="source">Quelle: [https://www.ibm.com/topics/software-testing](https://www.ibm.com/topics/software-testing)</span>
 
 
-<!-- - Evaluierung und Verifizierung von Software -->
-<!-- - Verhindern von Fehlern -->
-<!-- - Verbesserung der Performance -->
+<!--
+- Evaluierung und Verifizierung von Software
+- Verhindern von Fehlern
+- Verbesserung der Performance
+
+- Frage: Nutzen Sie regelmäßig Softwaretests?
+-->
 
 ---
 
@@ -505,6 +509,10 @@ Zum ausprobieren z.B. auf: [onlinegdb.com](https://www.onlinegdb.com/)
 <h1 style="text-align: center; position: absolute; top: 40%; width: 100%; right: 0%">
   Offene Fragen und Diskussion
 </h1>
+
+<!--
+Nutzen Sie regelmäßig Softwaretests?
+-->
 
 ---
 
