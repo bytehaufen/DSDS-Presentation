@@ -66,7 +66,7 @@ von Kevin Böhme und Rico Ukro
 
 # TODO
 
-- [ ] Flatten `Agenda`; make Details as comments -> @rico
+- [x] Flatten `Agenda`; make Details as comments -> @rico
 - [x] Make headings academic
 - [ ] Update Agenda
 - [ ] Add or remove picture captions
@@ -93,51 +93,7 @@ von Kevin Böhme und Rico Ukro
 
 #  Agenda
 
-<div style="display: flex; justify-content: space-between;">
-
-  <div style="flex: 1; padding-right: 10px;">
-    <ul>
-      <li>Was sind Tests?</li>
-      <li>Warum Tests?</li>
-      <ul>
-        <li>Negativ Beispiele</li>
-        <li>Gesetzliche Anforderungen (DSGVO)</li>
-        <li>Aus technischer Sicht</li>
-      </ul>
-    </ul>
-  </div>
-
-  <div style="flex: 1; padding-left: 10px; padding-right: 10px;">
-    <ul>
-      <li>Grundlagen von Tests und Testverfahren
-        <ul>
-          <li>Test Driven Development (TDD)</li>
-          <li>Überblick über Testarten</li>
-          <li>Unit Tests</li>
-          <li>Integration Tests</li>
-          <li>System Tests</li>
-          <li>Fuzzing</li>
-          <li>Penetration Tests</li>
-          <li>Überblick: weitere Testverfahren</li>
-          <li>Mocking</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-
-  <div style="flex: 1; padding-left: 10px;">
-    <ul>
-      <li>Umsetzung von Tests</li>
-      <ul>
-        <li>Testdaten und Datenschutz</li>
-        <li>Und wie erstelle Tests?</li>
-      </ul>
-      <li>Link zu den Aufgaben</li>
-      <li>Quellen</li>
-    </ul>
-  </div>
-
-</div>
+TODO: Collect all h2, subheadings as comments
 
 ---
 
