@@ -81,7 +81,9 @@ li {
 # TODO
 
 Open:
-- [ ] Reorder slides
+- [ ] H2 so ok, or change it back to default?
+- [x] Reorder slides
+  - -> I think it's ok
 - [ ] Make this stuff beautiful
 - [ ] Check Abbreviations
 - [ ] Update Agenda
