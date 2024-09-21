@@ -89,6 +89,7 @@ Open:
 - [ ] Make this stuff beautiful
 - [x] Update Agenda
   - -> Check one more time @Zwirnisw3lt
+- [ ] Customize source links font-size
 
 Done:
 - [x] Check Abbreviations
