@@ -213,15 +213,16 @@ else:
     # Handle response
 ```
 
-### Warum ist Testing in diesem Kontext wichtig?
-
 ---
 
-- Fehlererkennung: API antwortet korrekt, Fehler werden richtig gehandhabt
-- Fehlertoleranz: Anwendung reagiert robust auf verschiedene Antwortcodes und Netzwerkausfälle
-- Sicherheit: Sicherstellen, dass keine sensiblen Daten kompromittiert werden
-- Zuverlässigkeit: API-Abfrage funktioniert konsistent, auch bei hoher Last oder langsamen Netzwerken
-- Validierung der Logik: Richtig implementierte Logik für verschiedene Statuscodes und Inhalte
+### Warum ist Testing in diesem Kontext wichtig?
+<ul data-marpit-fragment="1">
+  <li>Fehlererkennung: API antwortet korrekt, Fehler werden richtig gehandhabt</li>
+  <li>Fehlertoleranz: Anwendung reagiert robust auf verschiedene Antwortcodes und Netzwerkausfälle</li>
+  <li>Sicherheit: Sicherstellen, dass keine sensiblen Daten kompromittiert werden</li>
+  <li>Zuverlässigkeit: API-Abfrage funktioniert konsistent, auch bei hoher Last oder langsamen Netzwerken</li>
+  <li>Validierung der Logik: Richtig implementierte Logik für verschiedene Statuscodes und Inhalte</li>
+</ul>
 
 ---
 
