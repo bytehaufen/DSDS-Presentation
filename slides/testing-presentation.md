@@ -115,7 +115,7 @@ Done:
   - -> No, we have enough content
 - [x] Discuss: For the test example, first show the test, then the implementation -> Better match with TDD
   - -> Added as comment for explanation
-
+- [ ] Check that the `pdf`s look like the slides 
 ---
 
 #  Agenda
