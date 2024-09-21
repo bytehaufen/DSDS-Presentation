@@ -87,7 +87,8 @@ Open:
 - [x] Reorder slides
   - -> I think it's ok
 - [ ] Make this stuff beautiful
-- [ ] Update Agenda
+- [x] Update Agenda
+  - -> Check one more time @Zwirnisw3lt
 
 Done:
 - [x] Check Abbreviations
@@ -118,7 +119,29 @@ Done:
 
 #  Agenda
 
-TODO: Collect all h2, subheadings as comments
+- Begriffsklärung und Bedeutung von Softwaretests
+- Zweck und Notwendigkeit von Softwaretests
+- Grundlagen der Testmethoden und -verfahren
+- Durchführung von Softwaretests
+- Offene Fragen und Diskussion
+- Praktische Übungen zur Implementierung von Tests
+
+<!--
+Zu Grundlagen der Testmethoden und -verfahren:
+- Testgetriebene Entwicklung (TDD - Test Driven Development)
+- Übersicht über Testverfahren
++ Unit-Tests
++ Integrationstests
++ Systemtests
++ Fuzz-Tests - Fuzzing
++ Penetrationstests
++ Weitere Testverfahren im Überblick
+- Mocking
+
+Zu Durchführung von Softwaretests:
+- Testdatenmanagement und Datenschutzkonformität
+- Beispiel Implementierung
+-->
 
 ---
 
