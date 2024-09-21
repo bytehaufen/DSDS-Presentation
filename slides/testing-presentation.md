@@ -81,14 +81,16 @@ li {
 # TODO
 
 Open:
-- [ ] H2 so ok, or change it back to default?
+- [ ] H2 so ok, or change it back to default (relative behavior)?
+- [ ] Slide `Picture of TDD` really without heading?
+- [ ] Slide [go to exercises](#Praktische-Übungen-zur-Implementierung-von-Tests) heading looks miss-shifted
 - [x] Reorder slides
   - -> I think it's ok
 - [ ] Make this stuff beautiful
-- [ ] Check Abbreviations
 - [ ] Update Agenda
 
 Done:
+- [x] Check Abbreviations
 - [x] Add or remove picture captions
   - -> No, not necessary
 - [x] Flatten `Agenda`; make Details as comments -> @rico
