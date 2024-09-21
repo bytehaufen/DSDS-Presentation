@@ -65,21 +65,32 @@ von Kevin Böhme und Rico Ukro
 <!--TODO: Delete this slide-->
 
 <style scoped>
+p{
+  margin: 1px 0;
+  font-size: 16px;
+}
+ul {
+  margin: 1px 0;
+}
 li {
   margin: 1px 0;
   line-height: 1;
-  font-size: 18px;
+  font-size: 16px;
 }
 </style>
 # TODO
 
-- [x] Flatten `Agenda`; make Details as comments -> @rico
-- [x] Make headings academic
-- [ ] Add or remove picture captions
+Open:
 - [ ] Reorder slides
 - [ ] Make this stuff beautiful
 - [ ] Check Abbreviations
 - [ ] Update Agenda
+
+Done:
+- [x] Add or remove picture captions
+  - -> No, not necessary
+- [x] Flatten `Agenda`; make Details as comments -> @rico
+- [x] Make headings academic
 - [x] Discuss:
   - Use Mentimeter (or similar) opinion poll? -> **NO, thats totally bullshit**
 - [x] Collect all inline quotes
@@ -360,14 +371,16 @@ else:
 ## Fuzz-Tests - Fuzzing
 
 <div class="centered">
-  <img src="res/SAST - InstrumentedFuzzing.webp?" alt="Static Analysis and Code Fuzzing in the V-model" style="width: 60%;"/>
+  <img src="res/SAST - InstrumentedFuzzing.webp?" alt="Static Analysis and Code Fuzzing in the V-model" style="width: 70%;"/>
 </div>
 <div class="centered source">
 
-  Static Analysis and Code Fuzzing in the V-model
   Quelle: [https://dancerscode.com/posts/system-testing/](https://www.code-intelligence.com/what-is-fuzz-testing)
 </div>
 
+<!--
+Static Analysis and Code Fuzzing in the V-model
+-->
 ---
 
 ## Fuzz-Tests - Fuzzing
