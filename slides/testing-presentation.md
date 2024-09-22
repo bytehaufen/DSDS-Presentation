@@ -82,7 +82,6 @@ li {
 
 Open:
 - [ ] H2 so ok, or change it back to default (relative behavior)?
-- [ ] Slide `Picture of TDD` really without heading?
 - [ ] Slide [go to exercises](#Praktische-Übungen-zur-Implementierung-von-Tests) heading looks miss-shifted
 - [x] Reorder slides
   - -> I think it's ok
@@ -92,6 +91,7 @@ Open:
 - [ ] Customize source links font-size
 
 Done:
+- [x] Slide `Picture of TDD` really without heading?
 - [x] Check Abbreviations
 - [x] Add or remove picture captions
   - -> No, not necessary
@@ -268,6 +268,7 @@ else:
 
 ---
 
+## Testgetriebene Entwicklung (TDD - Test Driven Development)
 <div class="centered">
   <img src="res/test_driven_development.png?" alt="Test driven development" style="width: 70%;"/>
 </div>
