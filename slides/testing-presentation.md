@@ -82,7 +82,6 @@ li {
 
 Open:
 - [ ] H2 so ok, or change it back to default (relative behavior)?
-- [ ] Slide [go to exercises](#Praktische-Übungen-zur-Implementierung-von-Tests) heading looks miss-shifted
 - [x] Reorder slides
   - -> I think it's ok
 - [ ] Make this stuff beautiful
@@ -91,6 +90,7 @@ Open:
 - [ ] Customize source links font-size
 
 Done:
+- [x] Slide [go to exercises](#Praktische-Übungen-zur-Implementierung-von-Tests) heading looks miss-shifted
 - [x] Slide `Picture of TDD` really without heading?
 - [x] Check Abbreviations
 - [x] Add or remove picture captions
@@ -269,6 +269,7 @@ else:
 ---
 
 ## Testgetriebene Entwicklung (TDD - Test Driven Development)
+
 <div class="centered">
   <img src="res/test_driven_development.png?" alt="Test driven development" style="width: 70%;"/>
 </div>
@@ -576,10 +577,16 @@ Nutzen Sie regelmäßig Softwaretests?
 
 ---
 
-<h2 style="text-align: center; width: 100%;">
-  Praktische Übungen zur Implementierung von Tests
-</h2>
-<a href="https://github.com/bytehaufen/DSDS-Presentation/blob/build/pdfs/testing-exercises.pdf" style="text-align: center; display: block;">Gehe zu den Aufgaben</a>
+## Praktische Übungen zur Implementierung von Tests
+
+<style scoped>
+  a {
+    display: block;
+    text-align: center;
+  }
+</style>
+
+[Zu den Übungsaufgaben](https://github.com/bytehaufen/DSDS-Presentation/blob/build/pdfs/testing-exercises.pdf)
 
 ---
 
