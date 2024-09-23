@@ -65,7 +65,7 @@ von Kevin Böhme und Rico Ukro
   Aufgabe 1 - Unit tests - Schaltjahr
 </h2>
 
-Ihr Kunde &#8222;Karl&#8220; hat für sein Produkt &#8222;Karl's Karlender&#8220;, bei Ihnen angefragt, die fehlende Implementierung für die Berechnung der Schaltjahre zu übernehmen:
+Ihr Kunde &#8222;Karl&#8220; hat für sein Produkt &#8222;Karls Karlender&#8220;, bei Ihnen angefragt, die fehlende Implementierung für die Berechnung der Schaltjahre zu übernehmen:
 
 1. Entwickeln Sie Unit-Tests für eine Funktion `is_leap_year(year: int) -> bool`, die überprüft, ob ein gegebenes Jahr ein Schaltjahr ist
 2. Erstellen Sie mindestens 5 Testfälle, die verschiedene Szenarien abdecken (z.B. reguläre Jahre, Schaltjahre, Grenzfälle).
@@ -91,7 +91,7 @@ Als kleine Starthilfe:
   Aufgabe 2 - Unit/Integration tests - Sockenversand
 </h2>
 
-Für einen renommierten Online-Sockenversand soll die bisherige stark veraltete und fehleranfällige MS-SQL-Server Implementierung durch ein modernes Python Backend ersetzt werden.
+Für einen renommierten Online-Sockenversand, dessen CEO Mark Sockerberg ist, soll die bisherige stark veraltete und fehleranfällige MS-SQL-Server Implementierung durch ein modernes Python Backend ersetzt werden.
 
 Ihre Aufgabe ist es:
 
