@@ -597,7 +597,7 @@ Nutzen Sie regelmäßig Softwaretests?
 <style scoped>
 li {
   margin: 1px 0;
-  line-height: 1.6;
+  line-height: 1.8;
   font-size: 20px;
 }
 </style>
