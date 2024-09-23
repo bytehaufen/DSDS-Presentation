@@ -146,3 +146,22 @@ Als kleine Starthilfe:
 - _Template_: [`test_blog_system.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/blog/template/test_blog_system.py)
 
 ---
+
+## Aufgabe 4 - Unit tests - Krypto-Sicherheit
+
+Ihr Chef hat Sie beauftragt, den Zufallsgenerator, den der MI-Student „F. Triplequestion“ entwickelt hat, zu validieren und zu verifizieren, da dieser in einem Kundenprojekt eingesetzt werden soll.
+
+Ihre Aufgabe ist es:
+
+1. Entwickeln Sie Unit Tests, um die `Funktion bestRndGenEver() -> string` zu validieren. Diese Methode soll zufällige Zahlen generieren.
+2. Notieren Sie die Schwachstellen, die Sie in der Funktion durch Ihre Tests gefunden haben.
+3. Implementieren Sie die Funktion bei Bedarf neu, um die Schwachstellen zu beheben.
+
+_Zur Erinnerung: In der Kryptographie ist es absolut unverzichtbar, dass Pseudo-Zufallsgeneratoren niemals die gleichen Zufallszahlen liefern dürfen._
+
+---
+
+## Aufgabe 4 - Unit tests - Krypto-Sicherheit
+
+Als kleine Starthilfe:
+- _Zufallsgenerator_: [`bestRndGenEver.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/bestRndGenEver/template/bestRndGenEver.py)
