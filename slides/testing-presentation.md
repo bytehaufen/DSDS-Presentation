@@ -593,18 +593,18 @@ Nutzen Sie regelmäßig Softwaretests?
 ## Quellen
 
 <style scoped>
-a {
-  font-size: 22px;
-}
 li {
   margin: 1px 0;
-  line-height: 1.4;
+  line-height: 1.8;
+  font-size: 22px;
 }
 </style>
 
-- [https://www.geeksforgeeks.org/software-testing-basics/](https://www.geeksforgeeks.org/software-testing-basics/)
+- Myers, Glenford J., Corey Sandler, and Tom Badgett. _The art of software testing_. John Wiley & Sons, 2011
+- Pajankar, Ashwin. _Python Unit Test Automation: Automate, Organize, and Execute Unit Tests in Python._ Apress, 2022.
 - [https://blogs.zeiss.com/digital-innovation/de/test-driven-development/](https://blogs.zeiss.com/digital-innovation/de/test-driven-development/)
-- [https://purplesec.us/learn/types-penetration-testing](https://purplesec.us/learn/types-penetration-testing/)
-- [https://www.code-intelligence.com/what-is-fuzz-testing](https://www.code-intelligence.com/what-is-fuzz-testing)
+- [https://www.geeksforgeeks.org/software-testing-basics/](https://www.geeksforgeeks.org/software-testing-basics/)
 - [https://microsoft.github.io/code-with-engineering-playbook/automated-testing/unit-testing/mocking/](https://microsoft.github.io/code-with-engineering-playbook/automated-testing/unit-testing/mocking/)
+- [https://purplesec.us/learn/types-penetration-testing](https://purplesec.us/learn/types-penetration-testing/)
 - [https://www.ba-dresden.de/tmpl/daten/berufsakademie_sachsen/img/logo/ba_dresden_logo.svg](https://www.ba-dresden.de/tmpl/daten/berufsakademie_sachsen/img/logo/ba_dresden_logo.svg)
+- [https://www.code-intelligence.com/what-is-fuzz-testing](https://www.code-intelligence.com/what-is-fuzz-testing)
