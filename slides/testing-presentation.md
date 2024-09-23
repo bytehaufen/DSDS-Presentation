@@ -64,23 +64,6 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-<!--TODO: Delete this slide-->
-
-<style scoped>
-p{
-  margin: 1px 0;
-  font-size: 16px;
-}
-ul {
-  margin: 1px 0;
-}
-li {
-  margin: 1px 0;
-  line-height: 1;
-  font-size: 16px;
-}
-</style>
-
 #  Agenda
 
 - Begriffsklärung und Bedeutung von Softwaretests
