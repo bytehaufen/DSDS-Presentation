@@ -42,7 +42,7 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
   }
   /* For sources of citations */
   .source {
-    font-size: 12px;
+    font-size: 16px;
   }
 </style>
 
@@ -87,9 +87,9 @@ Open:
 - [ ] Make this stuff beautiful
 - [x] Update Agenda
   - -> Check one more time @Zwirnisw3lt
-- [ ] Customize source links font-size
 
 Done:
+- [x] Customize source links font-size
 - [x] Slide [go to exercises](#Praktische-Übungen-zur-Implementierung-von-Tests) heading looks miss-shifted
 - [x] Slide `Picture of TDD` really without heading?
 - [x] Check Abbreviations
