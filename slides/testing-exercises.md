@@ -27,18 +27,26 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
       color: #bbb; /* Lighter color for line numbers */
       font-weight: lighter; /* Lighter font weight for line numbers */
     }
+  /* Center all h1 elements */
+  h1 {
+    text-align: center;
+  }
+  /* Fix all h2 elements to top */
+  h2 {
+    position: absolute;
+    top: 55px; /* 78.5px is the default theme padding of all slides */
+  }
   /* Centered text */
   .centered {
     text-align: center;
   }
-  /* Fixed top */
-  .fixed-top {
-    position: absolute;
-    top: 10%;
-  }
   /* For sources of citations */
   .source {
-    font-size: 12px;
+    font-size: 20px;
+  }
+  /* Centered text */
+  .centered {
+    text-align: center;
   }
 </style>
 
@@ -61,9 +69,7 @@ von Kevin Böhme und Rico Ukro
 
 ---
 
-<h2 class="fixed-top">
-  Aufgabe 1 - Unit tests - Schaltjahr
-</h2>
+## Aufgabe 1 - Unit tests - Schaltjahr
 
 Ihr Kunde &#8222;Karl&#8220; hat für sein Produkt &#8222;Karls Karlender&#8220;, bei Ihnen angefragt, die fehlende Implementierung für die Berechnung der Schaltjahre zu übernehmen:
 
@@ -76,9 +82,7 @@ _Negative Kalenderjahre sind nicht vorgesehen._
 
 ---
 
-<h2 class="fixed-top">
-  Aufgabe 1 - Unit tests - Schaltjahr
-</h2>
+## Aufgabe 1 - Unit tests - Schaltjahr
 
 Als kleine Starthilfe:
 
@@ -87,9 +91,7 @@ Als kleine Starthilfe:
 
 ---
 
-<h2 class="fixed-top">
-  Aufgabe 2 - Unit/Integration tests - Sockenversand
-</h2>
+## Aufgabe 2 - Unit/Integration tests - Sockenversand
 
 Für einen renommierten Online-Sockenversand, dessen CEO Mark Sockerberg ist, soll die bisherige stark veraltete und fehleranfällige MS-SQL-Server Implementierung durch ein modernes Python Backend ersetzt werden.
 
@@ -101,9 +103,7 @@ Ihre Aufgabe ist es:
 
 ---
 
-<h2 class="fixed-top">
-  Aufgabe 2 - Unit/Integration tests - Sockenversand
-</h2>
+## Aufgabe 2 - Unit/Integration tests - Sockenversand
 
 Anforderungen:
 
@@ -114,9 +114,7 @@ Anforderungen:
 
 ---
 
-<h2 class="fixed-top">
-  Aufgabe 2 - Unit/Integration tests - Sockenversand
-</h2>
+## Aufgabe 2 - Unit/Integration tests - Sockenversand
 
 Als kleine Starthilfe:
 
@@ -126,10 +124,8 @@ Als kleine Starthilfe:
 - _Template_: [`test_sockstore_integration.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/sockstore/template/test_sockstore_integration.py)
 
 ---
-  
-<h2 class="fixed-top">
-  Aufgabe 3 - System tests - Blog
-</h2>
+
+## Aufgabe 3 - System tests - Blog
 
 Einer Ihrer Kunden, die Firma &#8222;Bloggify&#8220;, hat Sie beauftragt, die System tests für ihre Blogging-Plattform zu entwickeln. Das Plattform-Backend ist mittels REST-API über [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts) erreichbar.
 
@@ -140,9 +136,7 @@ Ihre Aufgabe ist es:
 
 ---
 
-<h2 class="fixed-top">
-  Aufgabe 3 - System tests - Blog
-</h2>
+## Aufgabe 3 - System tests - Blog
 
 Guide für die API:
 - [https://jsonplaceholder.typicode.com/guide](https://jsonplaceholder.typicode.com/guide)
@@ -151,3 +145,4 @@ Als kleine Starthilfe:
 
 - _Template_: [`test_blog_system.py`](https://raw.githubusercontent.com/bytehaufen/DSDS-Presentation/main/exercises/blog/template/test_blog_system.py)
 
+---
