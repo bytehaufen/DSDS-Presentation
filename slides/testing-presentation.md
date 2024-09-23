@@ -52,7 +52,7 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
   }
 </style>
 
-<!-- _footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | \nKevin Böhme & Rico Ukro" -->
+<!-- _footer: "" -->
 
 ![bg left:40% 80%](res/ba_dresden_logo.svg?)
 
