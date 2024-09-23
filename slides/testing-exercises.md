@@ -4,7 +4,7 @@ theme: default
 paginate: true
 transition: overlap
 math: katex
-footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | \nKevin Böhme & Rico Ukro"
+footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | Kevin Böhme & Rico Ukro"
 ---
 
 <style>
@@ -42,12 +42,21 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
   }
 </style>
 
+<style scoped>
+  h1 {
+    text-align: left;
+  }
+</style>
+
+<!-- _footer: "" -->
+
 ![bg left:40% 80%](res/ba_dresden_logo.svg)
 
 # Datenschutz/-sicherheit
 
 ### und die Notwendigkeit von Tests
 
+von Kevin Böhme und Rico Ukro
 ##### - _Aufgaben_ -
 
 ---
