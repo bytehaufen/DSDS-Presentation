@@ -42,7 +42,7 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
   }
   /* For sources of citations */
   .source {
-    font-size: 16px;
+    font-size: 20px;
   }
 </style>
 
@@ -83,14 +83,19 @@ li {
 # TODO
 
 Open:
-- [ ] H2 so ok, or change it back to default (relative behavior)?
-- [x] Reorder slides
-  - -> I think it's ok
-- [ ] Make this stuff beautiful
-- [x] Update Agenda
-  - -> Check one more time @Zwirnisw3lt
+
 
 Done:
+- [x] Make this stuff beautiful
+  - only 2 things: 
+    - sources still to small added 4px
+    - to exercises link to small
+- [x] H2 so ok, or change it back to default (relative behavior)?
+  - -> better than before, no overlapping with images
+- [x] Update Agenda
+  - -> Check one more time @Zwirnisw3lt
+- [x] Reorder slides
+  - -> I think it's ok
 - [x] Customize source links font-size
 - [x] Slide [go to exercises](#Praktische-Übungen-zur-Implementierung-von-Tests) heading looks miss-shifted
 - [x] Slide `Picture of TDD` really without heading?
@@ -588,7 +593,7 @@ Nutzen Sie regelmäßig Softwaretests?
   }
 </style>
 
-[Zu den Übungsaufgaben](https://github.com/bytehaufen/DSDS-Presentation/blob/build/pdfs/testing-exercises.pdf)
+<span style="font-size: 50px;">[Zu den Übungsaufgaben](https://github.com/bytehaufen/DSDS-Presentation/blob/build/pdfs/testing-exercises.pdf)</span>
 
 ---
 
