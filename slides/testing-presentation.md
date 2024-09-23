@@ -595,16 +595,15 @@ Nutzen Sie regelmäßig Softwaretests?
 <style scoped>
 li {
   margin: 1px 0;
-  line-height: 1.8;
-  font-size: 22px;
+  line-height: 1.6;
+  font-size: 20px;
 }
 </style>
 
-- Myers, Glenford J., Corey Sandler, and Tom Badgett. _The art of software testing_. John Wiley & Sons, 2011
-- Pajankar, Ashwin. _Python Unit Test Automation: Automate, Organize, and Execute Unit Tests in Python._ Apress, 2022.
-- [https://blogs.zeiss.com/digital-innovation/de/test-driven-development/](https://blogs.zeiss.com/digital-innovation/de/test-driven-development/)
-- [https://microsoft.github.io/code-with-engineering-playbook/automated-testing/unit-testing/mocking/](https://microsoft.github.io/code-with-engineering-playbook/automated-testing/unit-testing/mocking/)
-- [https://purplesec.us/learn/types-penetration-testing](https://purplesec.us/learn/types-penetration-testing/)
-- [https://www.ba-dresden.de/tmpl/daten/berufsakademie_sachsen/img/logo/ba_dresden_logo.svg](https://www.ba-dresden.de/tmpl/daten/berufsakademie_sachsen/img/logo/ba_dresden_logo.svg)
-- [https://www.code-intelligence.com/what-is-fuzz-testing](https://www.code-intelligence.com/what-is-fuzz-testing)
-- [https://www.geeksforgeeks.org/software-testing-basics/](https://www.geeksforgeeks.org/software-testing-basics/)
+1. Myers, Glenford J., Corey Sandler, and Tom Badgett. _The Art of Software Testing_. John Wiley & Sons, 2011.
+2. Pajankar, Ashwin. _Python Unit Test Automation: Automate, Organize, and Execute Unit Tests in Python_. Apress, 2022.
+3. GeeksforGeeks. &#8222;Software Testing Basics.&#8220; _GeeksforGeeks_, [https://www.geeksforgeeks.org/software-testing-basics/](https://www.geeksforgeeks.org/software-2esting-basics/). Abgerufen am 15. Sep. 2024.
+4. Zeiss. &#8222;Test Driven Development (TDD).&#8220; _Digital Innovation Blog_. Zeiss, [https://blogs.zeiss.com/digital-innovation/de/test-driven-development/](https://blogs.zeiss.com/digital-innovation/de/test-driven-development/). Abgerufen am 18. Sep. 2024.
+5. Purplesec. &#8222;Types of Penetration Testing.&#8220; _PurpleSec_, [https://purplesec.us/learn/types-penetration-testing/](https://purplesec.us/learn/types-penetration-testing/). Abgerufen am 19. Sep. 2024.
+6. Microsoft. _Unit Testing: Mocking in Automated Testing_. Code With Engineering Playbook, [https://microsoft.github.io/code-with-engineering-playbook/automated-testing/unit-testing/mocking/](https://microsoft.github.io/code-with-engineering-playbook/automated-testing/unit-testing/mocking/). Abgerufen am 17. Sep. 2024.
+7. Code Intelligence. &#8222;What is Fuzz Testing?&#8220; _Code Intelligence_, [https://www.code-intelligence.com/what-is-fuzz-testing](https://www.code-intelligence.com/what-is-fuzz-testing). Abgerufen am 20. Sep. 2024.
