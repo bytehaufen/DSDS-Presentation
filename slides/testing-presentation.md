@@ -63,6 +63,12 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
 von Kevin Böhme und Rico Ukro
 
 ---
+<!-- TODO: add these slide after having double the time
+- [x] Vote: Add this topic: [Role of Test Automation in a CI/CD Pipeline(https://dancerscode.com/posts/role-of-test-automation-in-a-ci-cd-pipeline/)]?
+  - -> No, we have enough content
+- [x] Vote: Add this topic: [Test Benefit Analysis](https://dancerscode.com/posts/test-benefit-analysis/)?
+  - -> No, we have enough content
+-->
 
 #  Agenda
 
@@ -493,6 +499,63 @@ Phasen eines Penetration Tests:
 - Vorteile:
   - Schneller und zuverlässiger als echte externe Ressourcen
   - Erlaubt das Testen von Szenarien, die in der realen Umgebung schwer zu reproduzieren sind
+
+---
+
+# Effizienzsteigerung in der Softwareentwicklung
+
+---
+
+## Rolle der Testautomatisierung in einer CI/CD-Pipeline 
+
+- **Continuous Integration (CI)**:
+
+  - Automatisiert Tests bei jedem Integrationsschritt
+  - Früherkennung von Bugs
+  - Führt Unit-Tests, Integrationstests und andere automatisierte Tests aus
+
+
+- **Continuous Delivery/Deployment (CD)**:
+
+  - Stellt sicher, dass jeder Build produktionsbereit ist
+  - Automatisiert Regressionstests zur Sicherstellung der Stabilität
+  - Reduziert manuellen Eingriff bei der Bereitstellung
+
+---
+
+## Rolle der Testautomatisierung in einer CI/CD-Pipeline
+
+- **Vorteile**:
+
+  - Schnelleres Feedback zur Code-Qualität
+  - Reduziert menschliche Fehler durch Automatisierung
+  - Beschleunigt Entwicklungs- und Release-Zyklen
+  - Verbessert Softwarequalität und Zuverlässigkeit
+
+
+---
+
+## Nutzenanalyse von Tests (Test Benefit Analysis)
+
+- **Fehlererkennung:**  
+  - Frühzeitige Erkennung von Fehlern reduziert spätere Korrekturkosten  
+  - Höhere Testabdeckung minimiert das Risiko von unentdeckten Fehlern
+
+- **Qualitätssteigerung:**  
+  - Regelmäßige Tests verbessern die Code-Qualität und Systemstabilität  
+  - Sicherstellung, dass neue Features keine alten Funktionen beeinträchtigen
+
+---
+
+## Nutzenanalyse von Tests (Test Benefit Analysis)
+
+- **Effizienz:**  
+  - Automatisierte Tests beschleunigen Entwicklungsprozesse  
+  - Spart Zeit und Ressourcen durch frühzeitige Validierung
+
+- **Vertrauen in Software:**  
+  - Gut getestete Software schafft Vertrauen bei Entwicklern, Testern und Nutzern  
+  - Höhere Zuverlässigkeit und geringeres Risiko von Produktionsausfällen
 
 ---
 
