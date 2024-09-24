@@ -144,6 +144,10 @@ Zu Durchführung von Softwaretests:
 - Schutz personenbezogener Daten durch Tests
 - Sicherstellung der System- und Datensicherheit
 
+<!--
+Wir schauen uns nun einen Teil der gesetzlichen Anforderungen an Softwaretests an.
+-->
+
 ---
 
 ### Artikel 5 – Grundsätze der Verarbeitung
@@ -184,6 +188,20 @@ if response.status_code != 200:
 else:
     # Handle response
 ```
+
+<!--
+- Ist die API-Abfrage sicher und Datenschutzkonform?
+- Wie sollte die Fehlerbehandlung aussehen?
+o Der Check auf den Statuscode muss vertauscht werden.
+o D.h.:
+o if status_code == 200:
+    if ueberprufung_des_inhalts(response):
+      # Handle response
+      return ok
+
+  return error
+  # Evtl, differenzieren zwischen verschiedenen Fehlern
+-->
 
 ---
 
@@ -231,9 +249,10 @@ else:
 
 - Unit-Tests
 - Integrationstests
-- Penetrationstests
 - Systemtests
 - Fuzz-Tests - Fuzzing
+- Penetrationstests
+- ...
 
 <!-- Unit Tests:
      - Testen einzelne, isolierte Komponenten
@@ -243,10 +262,6 @@ else:
      - Prüfen das Zusammenspiel mehrerer Module
      - Sicherstellen der korrekten Interaktion zwischen Komponenten -->
 
-<!-- Penetration Tests:
-     - Simulieren gezielte Angriffe
-     - Finden von Sicherheitslücken und Schwachstellen -->
-
 <!-- System Tests:
      - Überprüfen das gesamte System in realistischer Umgebung
      - Sicherstellen, dass das System den Anforderungen entspricht -->
@@ -254,6 +269,10 @@ else:
 <!-- Fuzzing:
      - Automatisierte Eingaben zufällig generieren
      - Finden von Schwachstellen wie Abstürzen oder Sicherheitslücken -->
+
+<!-- Penetration Tests:
+- Simulieren gezielte Angriffe
+- Finden von Sicherheitslücken und Schwachstellen -->
 
 ---
 
@@ -277,6 +296,30 @@ else:
 
   Quelle: [https://dancerscode.com/posts/unit-tests/](https://dancerscode.com/posts/unit-tests/)
 </div>
+
+<!--
+SUT: System Under Test
+
+Draw to whiteboard:
+- Simplified version of this
+- Add function with a test
++----------------------------+
+|        Test Input            |
+|  a = 3, b = 5               |
++----------------------------+
+             |
+             v
++----------------------------+
+|      add(a: int, b: int)    |
+|       -> int                     |
+|     return a + b             |
++----------------------------+
+             |
+             v
++----------------------------+
+|   Expected Output: 8  |
++----------------------------+
+-->
 
 ---
 
@@ -466,6 +509,7 @@ Erforderlich bei Tests von Software, die personenbezogene Daten verarbeitet:
 - **Zugriffsbeschränkungen** für Testumgebungen einführen, um Missbrauch von Testdaten zu verhindern.
 
 > _&#8222;Personenbezogene Daten müssen dem Zweck angemessen und erheblich sowie auf das für die Zwecke der Verarbeitung notwendige Maß beschränkt sein („Datenminimierung“);&#8220;_ <span class="source">Quelle: [Artikel 5 Abs. 1(c) DSGVO](https://dsgvo-gesetz.de/art-5-dsgvo/)</span>
+
 ---
 
 ## Entwicklung und Implementierung von Tests
@@ -518,6 +562,7 @@ Zum ausprobieren z.B. auf: [onlinegdb.com](https://www.onlinegdb.com/)
 </h1>
 
 <!--
+Frage von uns:
 Nutzen Sie regelmäßig Softwaretests?
 -->
 
