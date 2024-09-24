@@ -48,6 +48,12 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
   .centered {
     text-align: center;
   }
+
+  .answer {
+    background-color: #ffefd5;
+    padding: 10px;
+    border-radius: 15px;
+  }
 </style>
 
 <style scoped>
@@ -65,7 +71,120 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
 ### und die Notwendigkeit von Tests
 
 von Kevin Böhme und Rico Ukro
-##### - _Aufgaben_ -
+##### - _Fragen und Aufgaben_ -
+
+---
+
+# Übungsfragen
+
+---
+
+##### Was ist ein Unit-Test?
+
+1. Ein Test, der die gesamte Anwendung überprüft.
+1. Ein Test, der einzelne Funktionen, Methoden oder Klassen überprüft.
+1. Ein Test, der die Benutzeroberfläche überprüft.
+1. Ein Test, der die Datenbank überprüft.
+
+<span data-marpit-fragment="1" class="answer"> 
+Die richtige Antwort ist: <strong>Ein Test, der einzelne Funktionen, Methoden oder Klassen überprüft.</strong> Unit-Tests prüfen kleine, isolierte Teile der Software, um sicherzustellen, dass diese korrekt funktionieren. 
+</span>
+
+---
+
+##### Welche der folgenden Punkte gehören zu den Zielen eines Software-Tests?
+
+1. Verbesserung der Performance
+1. Sicherstellen, dass eine Software korrekt funktioniert
+1. Verhindern, dass die Software benutzt wird
+1. Senken der Entwicklungszeit
+
+<span data-marpit-fragment="1" class="answer"> 
+Die richtigen Antworten sind: <strong>Sicherstellen, dass eine Software korrekt funktioniert</strong> und <strong>Verbesserung der Performance.</strong>
+</span>
+
+---
+
+##### Welche der folgenden Testmethoden wird üblicherweise zuerst in der Entwicklungsphase durchgeführt?
+1. Integrationstest
+1. Penetrationstest
+1. Unit-Test
+1. Systemtest
+
+<span data-marpit-fragment="1" class="answer"> 
+Die richtige Antwort ist: <strong>Unit-Test</strong>. Diese Tests werden früh durchgeführt, um die kleinsten Bausteine der Software zu testen.
+</span>
+
+---
+
+##### Wie unterstützt das **Privacy by Design** Prinzip die Durchführung von Softwaretests, um Datenschutzrisiken zu minimieren?
+
+<span data-marpit-fragment="1" class="answer"> 
+<strong>Privacy by Design</strong> bedeutet, dass Datenschutz schon während der Entwicklung berücksichtigt wird. Softwaretests helfen dabei, Schwachstellen zu identifizieren, bevor die Software in Produktion geht, was das Risiko von Datenschutzverletzungen reduziert.
+</span>
+
+---
+
+##### Erklären Sie das Konzept der testgetriebenen Entwicklung (TDD).
+<span data-marpit-fragment="1" class="answer"> 
+TDD ist eine Methodik, bei der Tests vor dem Schreiben der eigentlichen Funktionalität erstellt werden.
+</span>
+
+##### Welche Vorteile hat es im Vergleich zu herkömmlichen Ansätzen?
+<span data-marpit-fragment="1" class="answer"> 
+Der Vorteil ist, dass die Software kontinuierlich gegen die Tests validiert wird, was zu weniger Fehlern und besserer Codequalität führt.
+</span>
+
+---
+
+##### Welche Art von Test zielt darauf ab, zufällige Eingaben zu verwenden, um Schwachstellen in der Software zu finden?
+
+1. Unit-Test
+1. Fuzz-Test
+1. Regressionstest
+1. Systemtest
+
+<span data-marpit-fragment="1" class="answer"> 
+Die richtige Antwort ist: <strong>Fuzz-Test</strong>. Er verwendet zufällige Eingaben, um Schwachstellen oder unerwartetes Verhalten in der Software zu entdecken.
+</span>
+
+---
+
+##### Was ist "Mocking" im Kontext von Softwaretests? 
+<span data-marpit-fragment="1" class="answer"> 
+Mocking ist das Simulieren von Abhängigkeiten wie Datenbanken oder APIs, um zu testen, wie die zu testende Funktion damit interagiert.
+</span>
+
+##### Warum wird es oft in Unit-Tests verwendet?
+
+<span data-marpit-fragment="1" class="answer"> 
+Es wird in Unit-Tests verwendet, um unabhängige und isolierte Tests durchzuführen.
+</span>
+
+---
+
+##### Warum ist es wichtig, Testdaten zu anonymisieren oder zu pseudonymisieren?
+
+<span data-marpit-fragment="1" class="answer"> 
+Testdaten sollten anonymisiert oder pseudonymisiert werden, um sicherzustellen, dass keine echten personenbezogenen Daten ungeschützt in Testumgebungen verwendet werden. Dies minimiert das Risiko von Datenschutzverletzungen und entspricht den Anforderungen der DSGVO.
+</span>
+
+---
+
+##### Welcher Test wird üblicherweise durchgeführt, um sicherzustellen, dass neue Codeänderungen keine Fehler in bestehender Funktionalität einführen?
+
+1. Smoke-Test
+1. Regressionstest
+1. Penetrationstest
+1. Performance-Test
+
+<span data-marpit-fragment="1" class="answer"> 
+Die richtige Antwort ist: <strong>Regressionstest</strong>. Diese Tests prüfen, ob bestehende Funktionen nach Codeänderungen weiterhin korrekt funktionieren.
+</span>
+
+---
+
+# Aufgaben
 
 ---
 
