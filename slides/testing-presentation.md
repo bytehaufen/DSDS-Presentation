@@ -631,7 +631,7 @@ Nutzen Sie regelmäßig Softwaretests?
 
 ---
 
-##  Lernkontrolle und Wiederholung mit Praktische Übungen zur Implementierung von Tests
+##  Lernkontrolle und Wiederholung mit praktischen Übungen zur Implementierung von Tests
 
 <style scoped>
   a {
