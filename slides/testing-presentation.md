@@ -63,12 +63,6 @@ footer: "BA Dresden | Datenschutz/-sicherheit und die Notwendigkeit von Tests | 
 von Kevin Böhme und Rico Ukro
 
 ---
-<!-- TODO: add these slide after having double the time
-- [x] Vote: Add this topic: [Role of Test Automation in a CI/CD Pipeline(https://dancerscode.com/posts/role-of-test-automation-in-a-ci-cd-pipeline/)]?
-  - -> No, we have enough content
-- [x] Vote: Add this topic: [Test Benefit Analysis](https://dancerscode.com/posts/test-benefit-analysis/)?
-  - -> No, we have enough content
--->
 
 #  Agenda
 
