@@ -650,7 +650,7 @@ Nutzen Sie regelmäßig Softwaretests?
 li {
   margin: 1px 0;
   line-height: 1.8;
-  font-size: 20px;
+  font-size: 17px;
 }
 </style>
 
@@ -661,3 +661,5 @@ li {
 5. Purplesec. &#8222;Types of Penetration Testing.&#8220; _PurpleSec_, [https://purplesec.us/learn/types-penetration-testing/](https://purplesec.us/learn/types-penetration-testing/). Abgerufen am 19. Sep. 2024.
 6. Microsoft. _Unit Testing: Mocking in Automated Testing_. Code With Engineering Playbook, [https://microsoft.github.io/code-with-engineering-playbook/automated-testing/unit-testing/mocking/](https://microsoft.github.io/code-with-engineering-playbook/automated-testing/unit-testing/mocking/). Abgerufen am 17. Sep. 2024.
 7. Code Intelligence. &#8222;What is Fuzz Testing?&#8220; _Code Intelligence_, [https://www.code-intelligence.com/what-is-fuzz-testing](https://www.code-intelligence.com/what-is-fuzz-testing). Abgerufen am 20. Sep. 2024.
+8. Dancer´s Code &#8222;Role of Test Automation in a CI/CD Pipeline&#8220; _Dancer´s Code_, [https://dancerscode.com/posts/role-of-test-automation-in-a-ci-cd-pipeline/](https://dancerscode.com/posts/role-of-test-automation-in-a-ci-cd-pipeline/). Abgerufen am 24. Sep. 2024.
+9. Dancer´s Code &#8222;Test Benefit Analysis&#8220; _Dancer´s Code_, [https://dancerscode.com/posts/test-benefit-analysis/](https://dancerscode.com/posts/test-benefit-analysis/). Abgerufen am 24. Sep. 2024.
