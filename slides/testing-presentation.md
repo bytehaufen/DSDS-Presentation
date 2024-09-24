@@ -631,7 +631,7 @@ Nutzen Sie regelmäßig Softwaretests?
 
 ---
 
-##  Lernkontrolle und Wiederholung
+##  Lernkontrolle und Wiederholung mit Praktische Übungen zur Implementierung von Tests
 
 <style scoped>
   a {
@@ -640,20 +640,7 @@ Nutzen Sie regelmäßig Softwaretests?
   }
 </style>
 
-<span style="font-size: 50px;">[Zu den Übungsfragen](https://github.com/bytehaufen/DSDS-Presentation/blob/build/pdfs/testing-questions.pdf)</span>
-
----
-
-## Praktische Übungen zur Implementierung von Tests
-
-<style scoped>
-  a {
-    display: block;
-    text-align: center;
-  }
-</style>
-
-<span style="font-size: 50px;">[Zu den Übungsaufgaben](https://github.com/bytehaufen/DSDS-Presentation/blob/build/pdfs/testing-exercises.pdf)</span>
+<span style="font-size: 50px;">[Zu den Übungsfragen und Aufgaben](https://github.com/bytehaufen/DSDS-Presentation/blob/build/pdfs/testing-exercises.pdf)</span>
 
 ---
 
