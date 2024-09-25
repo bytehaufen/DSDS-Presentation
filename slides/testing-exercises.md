@@ -266,6 +266,12 @@ Als kleine Starthilfe:
 
 ---
 
+<style scoped> 
+  .little {
+    font-size: 16px;
+  }
+</style>
+
 ## Aufgabe 4 - Unit tests - Krypto-Sicherheit
 
 Ihr Chef hat Sie beauftragt, den Zufallsgenerator, den der MI-Student „F. Triplequestion“ entwickelt hat, zu validieren und zu verifizieren, da dieser in einem Kundenprojekt eingesetzt werden soll.
@@ -276,7 +282,10 @@ Ihre Aufgabe ist es:
 2. Notieren Sie die Schwachstellen, die Sie in der Funktion durch Ihre Tests gefunden haben.
 3. Implementieren Sie die Funktion bei Bedarf neu, um die Schwachstellen zu beheben.
 
+<div class="little">
+
 _Zur Erinnerung: In der Kryptographie ist es absolut unverzichtbar, dass Pseudo-Zufallsgeneratoren niemals die gleichen Zufallszahlen liefern dürfen._
+</div>
 
 ---
 
