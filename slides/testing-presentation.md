@@ -426,7 +426,7 @@ Arten von Fuzz-Tests:
 ## Penetrationstests
 
 - Simulierte Angriffe auf ein System, um Sicherheitslücken zu identifizieren
-- Auch bekannt als _ethical hacking_
+- Sind ein Werkzeug von _ethical hacking_
 - Besonders wichtig für Datenschutz und Datensicherheit, um Schwachstellen frühzeitig zu erkennen
 
 - Verschiedene Arten von Penetration Tests:
