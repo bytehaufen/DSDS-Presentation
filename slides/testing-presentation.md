@@ -71,7 +71,7 @@ von Kevin Böhme und Rico Ukro
 - Grundlagen der Testmethoden und -verfahren
 - Durchführung von Softwaretests
 - Offene Fragen und Diskussion
-- Praktische Übungen zur Implementierung von Tests
+- Übungen
 
 <!--
 Zu Grundlagen der Testmethoden und -verfahren:
